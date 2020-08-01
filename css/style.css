@@ -23,6 +23,13 @@ h2, h3, p{
     outline: 5px solid red;
   
   }
+
+  .videorolik{
+    width:700px;
+    height: 300px;
+
+
+  }
   .header_nav{
 display: flex;
 align-items: center;
@@ -37,6 +44,21 @@ display:flex;
 
 
   }
+  .solo_p{
+padding: 50px 0;
+
+  }
+  .solo_news img{
+
+    width: 50%;
+  }
+  .solo_news{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    padding: 50px 0;
+  }
   .bottom_a{
    
       font-size: 12px;
@@ -46,9 +68,7 @@ display:flex;
       line-height: 1.2;
       text-align: center;
       text-shadow: 0px 0px 10.68px rgba(65, 65, 65, 0.004);
-      -moz-transform: scale(1, 1.4);
-      -webkit-transform: scale(1, 1.4);
-      -ms-transform: scale(1, 1.4);
+  
   
     }
     
@@ -62,9 +82,7 @@ display:flex;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
-    -moz-transform: scale(1, 1.4);
-    -webkit-transform: scale(1, 1.4);
-    -ms-transform: scale(1, 1.4);
+
     background-color: rgb(255, 255, 255);
     padding: 10px 20px;
     border-radius: 50px;
