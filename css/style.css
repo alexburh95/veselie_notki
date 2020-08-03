@@ -258,3 +258,35 @@ padding-left: 10px;
 padding-right:10px;
 
 }
+
+
+
+
+
+
+@media only screen and (max-width:1200px){
+
+  .news_footer, .main-header{
+display: none;
+
+
+  }
+
+
+}
+@media only screen and (max-width:992px){
+.col-xl-3.news_li {
+  padding-right: 0px;
+  padding-left: 0px;
+  -ms-flex: 0 0 31%;
+  flex: 0 0 31%;
+}
+}
+@media only screen and (max-width:720px){
+  .col-xl-3.news_li {
+    padding-right: 0px;
+    padding-left: 0px;
+    -ms-flex: 0 0 47%;
+    flex: 0 0 47%;
+  }
+  }
