@@ -289,4 +289,8 @@ display: none;
     -ms-flex: 0 0 47%;
     flex: 0 0 47%;
   }
+  .row{
+
+    justify-content: center;
+  }
   }
