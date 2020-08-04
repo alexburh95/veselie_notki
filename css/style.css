@@ -336,7 +336,9 @@ font-size: 15px;
 
 }
 .region_main{
+  padding-top: 25px;
 background-color: #001537;
+position: relative;
 
 
 }
@@ -360,11 +362,12 @@ color:#0099ff;
     box-shadow: 0px 0px 10px 0px #6DC7D6;
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     padding: 47px 47px 47px 47px;
+    margin-bottom: 50px;
 }
 .happy_notes{
 text-align: center;
 font-family: "spectra", Sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     text-transform: uppercase;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -378,6 +381,38 @@ font-family: "spectra", Sans-serif;
     font-weight: 800;
 
 }
+
+
+
+.regions{
+background-color: #001537;
+
+}
+
+
+
+
+
+.h3_region{
+    color: rgb(0, 170, 255);
+    line-height: 1.2;
+    text-align: center;
+    font-family: "spectra", Sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-image: linear-gradient(90deg, #ac7c4d 0%, #fffbce 12%, #542100 33%, #ffdbae 49%, #ac7c4d 61%,#fffbce 74%, #542100 84%, #ffdbae 99%) 1;
+    border-width: 1px;
+    border-style: solid;
+    border-radius:30px;
+    padding: 20px 0px;
+    font-size: 20px;
+    border-image-slice: 1;
+    box-shadow: 0 0 40px 0 #007cfe3c;
+    border: 1px solid #ffdbae;
+  
+
+}
+
 /*
 Адаптив
 */
