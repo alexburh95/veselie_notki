@@ -456,7 +456,69 @@ background-color: #001537;
   
 
 }
+.regions ul{
 
+  margin: 0;
+}
+
+.completed_konkurs{
+background-color: #001537;
+
+}
+.effect-4 {
+  background-color: #ffffff;
+}
+
+.effect-4 a {
+  padding: 8px;
+  color: #001537;
+  font-weight: bold;
+}
+
+.effect-4 a:hover {
+  color: #001537;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.effect-4 a::before,
+.effect-4 a::after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #001537;
+  content: "";
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.effect-4 a::before {
+  top: 0;
+  transform: translateY(-10px);
+}
+
+.effect-4 a::after {
+  bottom: 0;
+  transform: translateY(10px);
+}
+
+.effect-4 a:hover::before,
+.effect-4 a:hover::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+.style-news-list .img_compl_konkurs{
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.radius{
+
+  border-radius: 50px;
+  background-color: #001537;
+    color: #ffffff;
+    border: 1px solid;
+}
 /*
 Адаптив
 */
