@@ -519,6 +519,141 @@ background-color: #001537;
     color: #ffffff;
     border: 1px solid;
 }
+
+
+.a_region:hover{
+
+  text-decoration: none;
+}
+
+.region_img{
+width: 100%;
+
+}
+.lines{
+	font-family: sans-serif
+}
+.center{
+
+  text-align:center;
+}
+.counter_h3{
+
+  color: #CC9933;
+    font-family: "spectra", Sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.region_counter{
+background-color: #001537;
+padding-top: 50px;
+
+}
+.cifra1, .cifra2{
+  
+  color: #6ec1e4;
+  font-family: "Spectral", Sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+
+}  
+.s1{
+background-image: url('../img/slaid1.png');
+background-repeat:no-repeat;
+background-size:cover;
+height: 100vh;
+
+  }
+.b_blue{
+
+  background-color: rgb(0, 169, 244);
+}
+.b_dblue{
+background-color:#3b31c4;
+
+}
+.b_brown{
+background-color: #7d490e;
+
+}
+
+.video{
+
+background-color:#001537;
+
+}
+  .button {
+    margin-top: 100px;
+    padding: 20px 0px;
+    width: 220px;
+    font-size: 16px;
+    /* font-family: "Sony [Rus by me]"; */
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 0px 10.68px rgba(65, 65, 65, 0.004);
+    border-radius: 15px;
+ 
+    box-shadow: 0px 0px 10.68px rgba(65, 65, 65, 0.004);
+    font-family: "spectra", sans-serif;
+    font-weight: 600;
+    animation: animated-border 1.5s infinite;
+
+  }
+ 
+  
+
+   
+  .flexik{
+
+    display: flex;
+    justify-content: center;
+  }
+  .s2{
+
+    background-image: url('../img/map.png');
+background-repeat:no-repeat;
+background-size:cover;
+height: 100vh;
+  }
+  .s3{
+
+    background-image: url('../img/slaid3.png');
+background-repeat:no-repeat;
+background-size:cover;
+height: 100vh;
+  }
+  .s4{
+
+    background-image: url('../img/slaid4.png');
+background-repeat:no-repeat;
+background-size:cover;
+height: 100vh;
+  }
+  .s5{
+
+    background-image: url(../img/slide5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+  }
+  .bottom{
+padding-top: 70%;
+
+  }
+  .st{display: flex;
+  justify-content: start;
+  }
+  .en{display: flex;
+    justify-content: flex-end;
+    }
+
+
+    
 /*
 Адаптив
 */
