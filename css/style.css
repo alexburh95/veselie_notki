@@ -583,6 +583,23 @@ background-color: #7d490e;
 background-color:#001537;
 
 }
+.single_h2{
+
+  text-align: center;
+    font-family: "spectra", Sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/hren.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #015eec;
+    font-weight: 800;
+}
   .button {
     margin-top: 100px;
     padding: 20px 0px;
@@ -602,10 +619,111 @@ background-color:#001537;
     animation: animated-border 1.5s infinite;
 
   }
- 
-  
+  .bl_krug{
 
+    border-radius: 41px 41px 41px 41px;
+    border-style: solid;
+    border-width: 8px 3px 8px 3px;
+    border-color: #6DC7D6;
+    box-shadow: 0px 0px 10px 0px #6DC7D6;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 47px 47px 47px 47px;
+  }
+  .project_desc{
+background-color: #001537;
+
+  }
+  .h3_desc{
+
+    color: #CC9933;
+    font-family: "spectra", Sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+  }
+ 
+  .desc_p{
+
+    color: #ffffff;
+    font-family: "spectra", Sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .btnflip {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    transform-origin: center center;
+  }
+  .btnflip-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 12px;
+    background-color: rgba(255,255,255, .05);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    border-radius: 21px;
+    text-transform: uppercase;
+    color: #fff;
+    transition: 1s;
+  }
+  .btnflip-item.btnflip__front {
+    transform: rotateX(0deg) translateZ(20px);
+  }
+  
+  .btnflip:hover .btnflip-item.btnflip__front {
+    transform: rotateX(-180deg) translateZ(20px);
+  }
+  .btnflip-item.btnflip__back {
+    transform: rotateX(180deg) translateZ(20px);
+  }
+  .btnflip:hover .btnflip-item.btnflip__back {
+    transform: rotateX(0deg) translateZ(20px);
+  }
+  .btnflip-item.btnflip__center {
+    background: linear-gradient(to left, #00a9f4, #7129bd);
+  }
+  .btnflip-item.btnflip__center1 {
+    background: linear-gradient(to left, #07cccd, #7129bd);
+  }
+  .btnflip-item.btnflip__center2 {
+    background: linear-gradient(to left, #362ad5, #7129bd);
+  }
+  .btnflip-item.btnflip__center::before,   .btnflip-item.btnflip__center1::before,   .btnflip-item.btnflip__center2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, #ffdd1f, #c31a5b);
+    border-radius: 30px;
+    transform: translateZ(-1px);
+  }
+  .btnflip:hover .btnflip-item.btnflip__center, .btnflip:hover .btnflip-item.btnflip__center1, .btnflip:hover .btnflip-item.btnflip__center2  {
+    transform: rotateX(-180deg);
+  }
    
+.knopka_div{
+  position: relative;
+    margin-top: 50px;
+}
+
   .flexik{
 
     display: flex;
@@ -652,8 +770,71 @@ padding-top: 70%;
     justify-content: flex-end;
     }
 
+    .desc_h4{
+      color: #CC9933;
+    font-family: "spectra", Sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 18%;
+    text-align: left;
+    padding-left: 20%;
+    }
+    .descs_h4{
 
-    
+      padding-top: 0%;
+      color: #6dc7d6;
+      font-family: "spectra", Sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 20%;
+    }
+    .p_desc{
+      text-align: right;
+    color: #ffffff;
+    font-family: "spectra", Sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+    }
+    .bottom_p{
+      color: #ffffff;
+      font-family: "spectra", Sans-serif;
+      font-size: 18px;
+      padding-left: 20%;
+  }
+  .bottom_p_blue{
+    color: #6DC7D6;
+    font-family: "spectra", Sans-serif;
+    font-size: 20px;
+    padding-left: 20%;
+    font-weight: 800;
+}
+  .bl_krugs{
+
+    border-radius: 200px 200px 200px 200px;
+    border-style: solid;
+    border-width: 8px 3px 8px 3px;
+    border-color: #6DC7D6;
+    box-shadow: 0px 0px 10px 0px #6DC7D6;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 47px 47px 47px 47px;
+  }
+    .telek{
+
+      background-image: url(../img/televizar.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      width: 100%;
+      background-position: center;
+      position: relative;
+
+    }
+    .telek_in{
+      position: absolute;
+    }
 /*
 Адаптив
 */
