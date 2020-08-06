@@ -558,11 +558,17 @@ padding-top: 50px;
   font-size: 50px;
 
 }  
+.slider_img{
+width: 100%;
+height: 100hv;
+
+}
 .s1{
-background-image: url('../img/slaid1.png');
-background-repeat:no-repeat;
-background-size:cover;
-height: 100vh;
+  background-image: url(../img/slaid1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
 
   }
 .b_blue{
@@ -575,7 +581,12 @@ background-color:#3b31c4;
 }
 .b_brown{
 background-color: #7d490e;
+    box-shadow: 0 0px 20px 0 blue !important;
+    
 
+}
+.b_lazur{
+  background-color: #00ecea;
 }
 
 .video{
@@ -603,7 +614,7 @@ background-color:#001537;
   .button {
     margin-top: 100px;
     padding: 20px 0px;
-    width: 220px;
+    width: 250px;
     font-size: 16px;
     /* font-family: "Sony [Rus by me]"; */
     color: #ffffff;
@@ -612,12 +623,30 @@ background-color:#001537;
     text-align: center;
     text-shadow: 0px 0px 10.68px rgba(65, 65, 65, 0.004);
     border-radius: 15px;
- 
-    box-shadow: 0px 0px 10.68px rgba(65, 65, 65, 0.004);
     font-family: "spectra", sans-serif;
     font-weight: 600;
-    animation: animated-border 1.5s infinite;
+    box-shadow: inset 5px -5px 20px 0 #0062b8;
 
+  }
+  .slide3_h3_left{
+    text-transform: uppercase;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 21%;
+    color: #00ecea;
+    font-family: "spectra", sans-serif;
+    font-size: 35px;
+  }
+  .slide3_h3_right{
+    text-transform: uppercase;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 66%;
+    color: #00ecea;
+    font-family: "spectra", sans-serif;
+    font-size: 35px;
   }
   .bl_krug{
 
@@ -681,9 +710,11 @@ background-color: #001537;
     text-transform: uppercase;
     color: #fff;
     transition: 1s;
+  
   }
   .btnflip-item.btnflip__front {
     transform: rotateX(0deg) translateZ(20px);
+    box-shadow: inset 5px -5px 20px 0 #0062b8;
   }
   
   .btnflip:hover .btnflip-item.btnflip__front {
@@ -696,13 +727,13 @@ background-color: #001537;
     transform: rotateX(0deg) translateZ(20px);
   }
   .btnflip-item.btnflip__center {
-    background: linear-gradient(to left, #00a9f4, #7129bd);
+    background: linear-gradient(to left, #00A9F4, #00a9f4);
   }
   .btnflip-item.btnflip__center1 {
-    background: linear-gradient(to left, #07cccd, #7129bd);
+    background: linear-gradient(to left, #07cccd, #07cccd);
   }
   .btnflip-item.btnflip__center2 {
-    background: linear-gradient(to left, #362ad5, #7129bd);
+    background: linear-gradient(to left, #362AD6, #362AD6);
   }
   .btnflip-item.btnflip__center::before,   .btnflip-item.btnflip__center1::before,   .btnflip-item.btnflip__center2::before {
     content: '';
@@ -712,7 +743,7 @@ background-color: #001537;
     width: 100%;
     height: 100%;
     background: linear-gradient(to left, #ffdd1f, #c31a5b);
-    border-radius: 30px;
+    border-radius: 21px;
     transform: translateZ(-1px);
   }
   .btnflip:hover .btnflip-item.btnflip__center, .btnflip:hover .btnflip-item.btnflip__center1, .btnflip:hover .btnflip-item.btnflip__center2  {
@@ -723,7 +754,42 @@ background-color: #001537;
   position: relative;
     margin-top: 50px;
 }
+.sliders{
+  position: relative;
+}
+.knopka_slide_left{
 
+  position: absolute;
+  top: 10%;
+  left: 20%;
+}
+
+.knopka_slide_right_bottom_b{
+  position: absolute;
+  top: 73%;
+  left: 65%;
+}
+.knopka_slide_left_bottom_b{
+  position: absolute;
+  top: 73%;
+  left: 20%;
+}
+.knopka_slide_left_bottom{
+  position: absolute;
+  top: 70%;
+  left: 20%;
+}
+.knopka_slide_right_bottom{
+  position: absolute;
+  top: 70%;
+  left: 65%;
+}
+.knopka_slide_right{
+
+  position: absolute;
+    top: 10%;
+    left: 65%;
+}
   .flexik{
 
     display: flex;
@@ -731,10 +797,11 @@ background-color: #001537;
   }
   .s2{
 
-    background-image: url('../img/map.png');
+    background-image: url('../img/slaid2.jpg');
 background-repeat:no-repeat;
 background-size:cover;
 height: 100vh;
+width:100%
   }
   .s3{
 
@@ -833,8 +900,118 @@ padding-top: 70%;
 
     }
     .telek_in{
-      position: absolute;
+      border-image: linear-gradient(90deg, #ac7c4d 0%, #fffbce 12%, #542100 33%, #ffdbae 49%, #ac7c4d 61%,#fffbce 74%, #542100 84%, #ffdbae 99%);
+      border-width: 1px;
+      border-style: solid;
+      border-image-slice: 1;
     }
+    .slider{
+background-color: #001537;
+
+    }
+
+
+    .social_h2{
+      font-family: "spectra", Sans-serif;
+      line-height: 1.2;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 50px;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, #d67b20 12%, #fff285 25%, #d67b20 36%, #fff285 43%, #d67b20 59%, #84400c 94%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: #0B2349;
+      /* display: table; */
+      font-weight: 800;
+      background-image: url('../img/hren1.jpg');
+      background-repeat: repeat;
+      background-position: center center;
+
+}
+.contact_form textarea{
+  height: 100%;
+  width: 65%;
+  margin-bottom: 10px;
+  padding: 2px 5px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+
+
+.contact_form input
+ {
+  width: 65%;
+  margin-bottom: 10px;
+  padding: 2px 5px;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50px;
+  font-size: 15px;
+}
+
+.social{
+
+  padding: 50px 0px;
+  background-color: #000f6b;
+}
+
+.social_div{
+  background: linear-gradient( 0deg, rgb(0,22,79) 0%, rgb(0,11,41) 0%, rgb(0,0,2) 0%, rgb(0,11,41) 32%, rgb(0,22,79) 80%);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-image: linear-gradient(90deg, #ac7c4d 0%, #fffbce 12%, #542100 33%, #ffdbae 49%, #ac7c4d 61%,#fffbce 74%, #542100 84%, #ffdbae 99%);
+  border-width: 3px;
+  border-style: solid;
+  border-image-slice: 1;
+  justify-content: center;
+  margin: 20px;
+}
+.contact_form{
+background-color: #001537;
+
+}
+.knopochka{
+  color: #ffffff;
+    width: 65%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.contact_p{
+  color: #ffffff;
+  font-family: "spectra", Sans-serif;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+.p_social{
+
+  color: white;
+  font-size: 15px;
+  padding-left: 20px;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "spectra", sans-serif;
+}
 /*
 Адаптив
 */
