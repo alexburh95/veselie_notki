@@ -1209,31 +1209,52 @@ div[class^="effect-"] {
   margin: 0;
 
 }
+.anketa p, li{
 
-#myModal {
-  width: 298px; height: 218px;
-  padding: 18px 9px;
-  border-radius: 4px;
-  background: #fafafa;
-  position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
-  margin: auto;
-  display: none;
-  opacity: 0;
-  z-index: 38;
-  text-align: center;
+  padding: 15px 20px;
+  font-family: 'Spectral', serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+.anketa li{
+  font-weight: bold;
 }
 
-#myModal #myModal__close {
-  width: 21px; height: 21px;
-  position: absolute;
-  font-size: 29px;
-  top: 1px; right: 11px;
-  cursor: pointer;
-  display: block;
+.modals{
+  width: 70%;
+    border-radius: 4px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    opacity: 0;
+    z-index: 38;
+    text-align: left;
+    padding: 20px;
+    overflow: overlay;
+    transition: max-height 0.2s ease-out;
+    background-color: rgb(0, 21, 55);
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
 }
 
-#myOverlay {
+.span_close{
+  width: 21px;
+    height: 21px;
+    position: absolute;
+    font-size: 50px;
+    top: -10px;
+    right: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+
+.overley{
+
   z-index: 37;
   position: fixed;
   background: rgba(0,0,0,.7);
@@ -1363,7 +1384,184 @@ color: #ffffff;
 }
 .answer_questions{
   background-color: #000F64;
-  
+
+}
+.accordion {
+  background-color: #000000;
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: 2px solid #D8AE7B;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Spectral", serif;
+}
+
+
+
+.accordion:after {
+  content: '\002B';
+  color: #D8AE7B;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+.panel p, ol{
+  padding: 15px 20px;
+  font-family: 'Spectral', serif;
+  font-size: 15px;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: rgb(0, 21, 55);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    border: 2px solid #D8AE7B;
+
+}
+.rules_p{
+  color: #ffffff;
+  font-family: 'Spectral', serif;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.span_rules{
+  color: #6cc;
+}
+.answer_questions .col-lg-12{
+  padding: 50px 0;
+}
+.girlquar .col-lg-6{
+  padding: 50px 0;
+}
+.girlquar{
+  background-color: #000F64;
+}
+.girlquar h3{
+  font-family: 'Sony', serif;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #d67b20 12%, #fff285 25%, #d67b20 36%, #fff285 43%, #d67b20 59%, #84400c 94%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    /* display: table; */
+    font-weight: 800;
+    background-image: url(../img/hren1.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+}
+.rules{
+  background-color: #000F64;
+  background-image: url('../img/rules_fon.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.golden_bordik{
+  box-shadow: 0px 0px 10px 0px #6EC1E4;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-image: linear-gradient(90deg, #ac7c4d 0%, #fffbce 12%, #542100 33%, #ffdbae 49%, #ac7c4d 61%, #fffbce 74%, #542100 84%, #ffdbae 99%);
+  border-width: 5px;
+  border-style: solid;
+  border-image-slice: 1;
+}
+.h2_rules{
+
+    color: #0160CB;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Spectral", serif;
+    text-align: center;
+
+}
+.rules .col-lg-12{
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #FFFFFF;
+  box-shadow: 0px 0px 10px 0px #6EC1E4;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 10px;
+  border-radius: 16px 16px 16px 16px;
+  margin: 50px 0;
+}
+.children{
+  width: 100%;
+}
+.golden_bord{
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #D8AE7B;
+  box-shadow: 0px 0px 10px 0px #6EC1E4;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+.svaz{
+  background-color: #000F64;
+  background-image: url('../img/svaz_fon.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.button_svaz{
+  font-size: 12px;
+    font-weight: 300;
+    text-shadow: 0px 0px 10px #000000;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #63D1FF;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 10px 0px #FFFFFF;
+    font-family: 'Spectral', serif;
+    padding: 20px 40px;
+    margin: 50px 0;
+}
+.right{
+  text-align: right;
+}
+.button_svaz:hover{
+  text-decoration: none;
+  color: inherit;
+  box-shadow: none;
+}
+.svaz h2{
+  padding-top: 100px;
+}
+.relativ{
+  position: relative;
+}
+.quar_img{
+  width: 100%;
+  position: absolute;
+  top: 75px;
+  left: 500px;
 }
 /*
 Адаптив
