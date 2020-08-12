@@ -1209,11 +1209,40 @@ div[class^="effect-"] {
   margin: 0;
 
 }
+.modals h3{
+
+  font-family: "Spectral", serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+.nomi{
+  color: #6ec1e4;
+  padding-top: 50px;
+}
+.modalsis{
+  font-size: 20px;
+  color: #ff0000;
+font-weight: bold;
+}
+.modal-h2{
+  font-size: 31px;
+  font-weight: 600;
+  color: #6ec1e4;
+  text-align: center;
+  font-family: 'Spectral', serif;
+}
+.modals strong{
+  font-size: 25px;
+}
+.modals .modal_seven{
+  color: #D8AE7B;
+  font-size: 30px;
+}
 .anketa p, li{
 
-  padding: 15px 20px;
+ 
   font-family: 'Spectral', serif;
-  font-size: 20px;
+  font-size: 15px;
   color: #ffffff;
 }
 .anketa li{
