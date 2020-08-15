@@ -831,6 +831,7 @@ div[class^="effect-"] {
 }
 
 .btnflip-item {
+  font-family: 'Sony', serif;
   position: absolute;
   top: 0;
   left: 0;
