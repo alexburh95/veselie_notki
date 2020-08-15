@@ -1040,6 +1040,7 @@ div[class^="effect-"] {
   font-family: 'Spectral', serif;
   font-size: 16px;
   padding-top: 10px;
+  padding: 0px 30px;
 }
 
 .bottom_p {
@@ -1604,6 +1605,7 @@ color: #ffffff;
 }
 .right{
   text-align: right;
+  padding: 0px 30px;
 }
 /*
 Адаптив
@@ -1794,6 +1796,15 @@ padding-left: 0px;
 }
 }
 @media only screen and (max-width:768px) {
+  .right {
+    text-align: center;
+    /* padding: 0px 30px; */
+    padding: initial;
+  }
+  .p_desc{
+    padding: inherit;
+    text-align: center;
+  }
   .span_planet_right {
     margin-left: 20px;
 
