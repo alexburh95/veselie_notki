@@ -2105,6 +2105,14 @@ padding-left: 0px;
 }
 
 @media only screen and (max-width:414px) {
+  .slide3_h3_left {
+    top: 55%;
+    left: 4%;
+  }
+  .slide3_h3_right {
+    top: 40%;
+    left: 71%;
+}
   .knopka_slide_left {
     top: -40%;
   }
