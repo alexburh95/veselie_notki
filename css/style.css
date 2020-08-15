@@ -2105,6 +2105,12 @@ padding-left: 0px;
 }
 
 @media only screen and (max-width:414px) {
+  .knopka_slide_left {
+    top: -40%;
+  }
+  .knopka_slide_right {
+    top: -40%;
+  }
   .knopka_slide_right_bottom_b {
     top: 36%;
 }
@@ -2146,6 +2152,24 @@ padding-left: 0px;
 }
 
 @media only screen and (max-width: 375px) {
+
+.h2_rules {
+    color: #0160CB;
+    font-weight: 600;
+    font-size: 23px;
+}
+  .planet_h2_bottom {
+    font-size: 17px;
+}
+  .knopka_slide_right {
+    top: -45%;
+  }
+  .knopka_slide_left {
+    top: -45%;
+  }
+  .happy_notes {
+    font-size: 25px;
+  }
   .region_bottom p {
     font-size: 15px;
   }
