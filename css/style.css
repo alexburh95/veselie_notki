@@ -755,6 +755,11 @@ div[class^="effect-"] {
   font-family: 'Spectral', serif;
   font-weight: 600;
   box-shadow: inset 5px -5px 20px 0 #0062b8;
+  border-radius: 15px;
+  font-family: 'Sony', serif;
+  /* font-weight: 100; */
+  box-shadow: inset 5px -5px 20px 0 #0062b8, 0 0 5px 1px #ffffff;
+  font-weight: normal;
 
 }
 
