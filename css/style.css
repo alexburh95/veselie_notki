@@ -361,6 +361,7 @@ div[class^="effect-"] {
   color: #ffffff;
   font-family: 'Spectral', serif;
   font-size: 15px;
+  padding: 5px;
 
 
 }
@@ -750,7 +751,7 @@ div[class^="effect-"] {
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
-  text-shadow: 0px 0px 10.68px rgba(65, 65, 65, 0.004);
+  text-shadow: 1px 1px 2px black, 0 0 1em #001537;
   border-radius: 15px;
   font-family: 'Spectral', serif;
   font-weight: 600;
@@ -1611,6 +1612,90 @@ color: #ffffff;
 .right{
   text-align: right;
   padding: 0px 30px;
+}
+
+.volga_p_white{
+  color: #ffffff;
+    font-family: 'Spectral',serif;
+    padding-top: 50px;
+    font-size: 20px;
+}
+.volga_p_red{
+  font-family: 'Spectral',serif;
+  font-size: 20px;
+  color: #F95858;
+  font-weight: 700;
+}
+.volga_p_red:last-child{
+margin-bottom: 0px;
+
+}
+.happy_d ul{
+  list-style-type: disc;
+}
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 10px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  color: #Ffffff;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid #ffffff;
+  outline: 0;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+.form__field::placeholder {
+  color: transparent;
+}
+.form__field:placeholder-shown ~ .form__label {
+  font-size: 1.3rem;
+  cursor: text;
+  top: 20px;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.form__field:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-image:  linear-gradient(to bottom, #1a2a6c, #b21f1f, #fdbb2d);
+
+
+  border-image-slice: 1;
+}
+.form__field:focus ~ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 20px;
+  color: #fdbb2d;
+  font-weight: 700;
+}
+
+/* reset input */
+.form__field:required, .form__field:invalid {
+  box-shadow: none;
 }
 /*
 Адаптив
