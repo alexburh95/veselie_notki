@@ -459,7 +459,7 @@ div[class^="effect-"] {
   text-transform: uppercase;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url('../img/hren.jpg');
+  background-image: url('../img/hren2.jpg');
   background-repeat: repeat;
   background-position: center center;
   background-clip: text;
@@ -729,7 +729,7 @@ div[class^="effect-"] {
   text-transform: uppercase;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url(../img/hren.jpg);
+  background-image: url(../img/hren2.jpg);
   background-repeat: repeat;
   background-position: center center;
   background-clip: text;
@@ -746,7 +746,7 @@ div[class^="effect-"] {
   text-transform: uppercase;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url(../img/hren.jpg);
+  background-image: url(../img/hren2.jpg);
   background-repeat: repeat;
   background-position: center center;
   background-clip: text;
@@ -780,14 +780,16 @@ div[class^="effect-"] {
 }
 
 .slide3_h3_left {
-  text-transform: uppercase;
-  font-weight: 800;
-  position: absolute;
-  top: 30%;
-  left: 21%;
-  color: #00ecea;
-  font-family: 'Spectral', serif;
-  font-size: 35px;
+ 
+    text-transform: uppercase;
+    font-weight: 800;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: #00ecea;
+    font-family: 'Spectral', serif;
+    font-size: 45px;
+
 }
 
 .slide3_h3_right {
@@ -795,10 +797,10 @@ div[class^="effect-"] {
   font-weight: 800;
   position: absolute;
   top: 30%;
-  left: 66%;
+  left: 65%;
   color: #00ecea;
   font-family: 'Spectral', serif;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .bl_krug {
@@ -1383,7 +1385,7 @@ color: #ffffff;
   font-family: 'Sony', serif;
   font-size: 30px;
   text-transform: uppercase;
-  background-image: url(../img/hren.jpg);
+  background-image: url(../img/hren2.jpg);
   background-repeat: repeat;
   background-position: center center;
   background-clip: text;
