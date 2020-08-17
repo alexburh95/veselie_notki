@@ -755,7 +755,7 @@ div[class^="effect-"] {
   border-radius: 15px;
   font-family: 'Spectral', serif;
   font-weight: 600;
-  box-shadow: inset 5px -5px 20px 0 #0062b8;
+  box-shadow: inset 5px -5px 30px 0 #0062b8;
   border-radius: 15px;
   font-family: 'Sony', serif;
   /* font-weight: 100; */
@@ -933,7 +933,7 @@ div[class^="effect-"] {
 .knopka_slide_right_bottom_b {
   position: absolute;
   top: 73%;
-  left: 65%;
+  left: 66%;
 }
 
 .knopka_slide_left_bottom_b {
@@ -1073,6 +1073,7 @@ div[class^="effect-"] {
   box-shadow: 0px 0px 10px 0px #6DC7D6;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   padding: 47px 47px 47px 47px;
+  background: linear-gradient(to right, #001537, #1e3c72, #001537);
 }
 
 .telek {
@@ -1696,6 +1697,60 @@ margin-bottom: 0px;
 /* reset input */
 .form__field:required, .form__field:invalid {
   box-shadow: none;
+}
+.p_desc_left{
+  text-align: left;
+  padding-left: 20%;
+  color: #ffffff;
+    font-family: 'Spectral', serif;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.p_desc_center{
+  text-align: left;
+    padding-left: 15%;
+    color: #ffffff;
+    font-family: 'Spectral', serif;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.desc_h4_center {
+  color: #CC9933;
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 18%;
+    text-align: left;
+    padding-left: 15%;
+}
+.descs_h4_center {
+  padding-top: 0%;
+  color: #6dc7d6;
+  font-family: 'Spectral', serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 15%;
+}
+.rim{
+  font-family: 'Sony', serif;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #d67b20 12%, #fff285 25%, #d67b20 36%, #fff285 43%, #d67b20 59%, #84400c 94%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    /* display: table; */
+    font-weight: 800;
+    background-image: url(../img/hren1.jpg);
+    background-repeat: repeat;
+    background-position: center center;
 }
 /*
 Адаптив
