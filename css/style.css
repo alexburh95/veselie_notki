@@ -1563,6 +1563,13 @@ color: #ffffff;
     text-align: center;
 
 }
+.h2_rules2 {
+  color: #0160CB;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Spectral", serif;
+  text-align: center;
+}
 .rules .col-lg-12{
   border-style: solid;
   border-width: 2px 2px 2px 2px;
