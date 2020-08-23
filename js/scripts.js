@@ -79,10 +79,10 @@ $(function () {
 
 $(document).ready(function () {
   $('.owl-carousel').owlCarousel({
-    loop: false, //Зацикливаем слайдер
+    loop: true, //Зацикливаем слайдер
     margin: 50, //Отступ от элемента справа в 50px
     nav: false, //Отключение навигации
-    autoplay: false, //Автозапуск слайдера
+    autoplay: true, //Автозапуск слайдера
     smartSpeed: 1000, //Время движения слайда
     autoplayTimeout: 8000, //Время смены слайда
     items: 1,

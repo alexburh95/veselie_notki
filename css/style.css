@@ -44,6 +44,7 @@ p {
   display: flex;
   align-items: center;
   padding-left: 100px;
+  padding: 50px 0;
 
 }
 
@@ -107,11 +108,13 @@ p {
   text-align: center;
 
   background-color: rgb(255, 255, 255);
-  padding: 10px 20px;
+  padding: 15px 5px;
+
   border-radius: 50px;
   box-shadow: inset 0 -20px 10px 0 #8986b8;
   font-weight: 900;
   white-space: nowrap;
+  min-width: 160px;
 
 }
 
@@ -1919,8 +1922,234 @@ ol {
   color: #55d7dc
 }
 
-.happy.aqua {
+.happy.aqua, .konkurs_p1.aqua {
   color: #00FFFF;
+
+}
+
+.aqua{
+  color: #00FFFF;
+
+}
+.bottom_menu_a {
+    color: #ffffff;
+    padding: 20px 5px;
+    border-radius: 15px;
+    min-width: 160px;
+    /* text-shadow: 0px 0px 10.68px rgba(65, 65, 65, 0.004); */
+    font-family: 'Sony', serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px black, 0 0 1em #001537;
+    box-shadow: inset 5px -5px 20px 0 #0062b8, 0 0 5px 1px #ffffff;
+    text-align: center;
+}
+.bottom_menu_a:hover{
+transform: scale(1.05);
+text-decoration: none;
+color: #ffffff;
+
+}
+.top_a:hover{
+  transform:scale(1.05);
+}
+.blue{
+  background-color: rgb(0, 169, 244);
+}
+.purple{
+  background-color: rgb(55, 43, 216);
+
+
+}
+.purple:hover{
+  background: #f953c6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b91d73, #f953c6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b91d73, #f953c6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.sea{
+  background-color: rgb(0, 229, 227);
+}
+
+.sea:hover{
+  background: #FC354C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+
+}
+
+.konkurs{
+background-image: url('../img/konkurs_fon.png');
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.happy_notes_konkurs{
+ margin: 0;
+    text-align: center;
+    font-family: 'Sony', serif;
+    font-size: 39px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../img/hren2.jpg);
+    background-repeat: repeat;
+    background-position: center center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #015eec;
+    font-weight: 800;
+}
+.konkurs_p{
+
+  color: #ffffff;
+    font-family: 'Spectral', serif;
+    font-size: 26px;
+    color: rgb(255, 248, 235);
+    font-weight: 700;
+    line-height: 0.923;
+    text-align: left;
+}
+.happy_notes_konkurs_bottom{
+
+  text-align: left;
+  font-family: 'Sony', serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-top: 50px;
+  background-image: url(../img/hren2.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #015eec;
+  font-weight: 800;
+}
+
+.konkurs_p1 {
+  color: #ffffff;
+  font-family: 'Spectral', serif;
+  font-size: 20px;
+  color: rgb(255, 248, 235);
+  font-weight: 700;
+  line-height: 0.923;
+  text-align: left;
+  padding-top: 15px;
+}
+.happy_notes_konkurs_bottom1{
+
+  text-align: left;
+  font-family: 'Sony', serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  background-image: url(../img/hren2.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #015eec;
+  font-weight: 800;
+}
+.rimma{
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 26px;
+  text-align: right;
+  font-family: 'Spectral', serif;
+  font-size: 20px;
+  color: rgb(255, 248, 235);
+
+  line-height: 0.923;
+  padding-right: 12px;
+  font-weight: 700;
+}
+
+.rimma_img{
+  width: 100%;
+  margin-top: 100px;
+}
+
+.h3_nom {
+  margin-top: 20px;
+  font-size: 30.424px;
+  background: linear-gradient(90deg, #d67b20 12%, #fff285 25%, #d67b20 36%, #fff285 43%, #d67b20 59%, #84400c 94%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  /* display: table; */
+  font-weight: 800;
+  background-image: url(../img/hren1.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  font-family: 'Sony';
+}
+.h4_nom {
+  font-size: 25px;
+  background: linear-gradient(90deg, #d67b20 12%, #fff285 25%, #d67b20 36%, #fff285 43%, #d67b20 59%, #84400c 94%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  /* display: table; */
+  font-weight: 800;
+  background-image: url(../img/hren1.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  text-transform: uppercase;
+  font-family: 'Sony';
+}
+
+.p_nom{
+  font-size: 20px;
+  font-family: 'Sony';
+  color: rgb(109, 199, 214);
+  line-height: 1.412;
+  font-weight: 800;
+  width: 85%;
+ 
+}
+.nom .container {
+  border-style: solid;
+  /* border-width: 8px 3px 8px 3px; */
+  border-color: #6DC7D6;
+  box-shadow: 0px 0px 10px 0px #6DC7D6;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 47px 47px 47px 47px;
+  background: linear-gradient(to right, #001537, #1e3c72, #001537);
+  /* border-radius: 45px 45px 45px 45px; */
+  border-color: rgb(106, 161, 183);
+  box-shadow: 0px 0px 9.75px 5.25px rgba(0, 210, 240, 0.5);
+  border-width: 5px;
+  border-radius: 82px;
+}
+.nom{
+  background-color: #001537;
+  padding-bottom: 100px;
+}
+.cifra{
+  background-color: #001537;
+  padding: 100px 0;
+}
+
+.cifra_p span{
+  color: #0087d1;
+  font-weight: 800;
+  font-size: 28px;
+}
+
+.cifra_p {
+  font-size: 21px;
+  font-family: 'Sony';
+  color: rgb(248, 171, 87);
+
 
 }
 
