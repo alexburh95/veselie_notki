@@ -7,30 +7,12 @@
 
 
 $(document).ready(function () {
-  $('#carousel2').owlCarousel({
-    loop: true, //Зацикливаем слайдер
-    margin: 50, //Отступ от элемента справа в 50px
-    nav: false, //Отключение навигации
-    autoplay: true, //Автозапуск слайдера
-    smartSpeed: 1000, //Время движения слайда
-    autoplayTimeout: 8000, //Время смены слайда
-    items: 1,
-    dots: false,
-  });
-  $('#carousel1').owlCarousel({
-    loop: true, //Зацикливаем слайдер
-    margin: 50, //Отступ от элемента справа в 50px
-    nav: false, //Отключение навигации
-    autoplay: true, //Автозапуск слайдера
-    smartSpeed: 1000, //Время движения слайда
-    autoplayTimeout: 8000, //Время смены слайда
-    items: 4,
-    dots: true,
-    nav: true,
-  });
+  new WOW().init();
   jQuery(function($){
     $("#viewport").viewportChecker({
     callbackFunction:function(){
+     
+
       $('.count').each(function () {
         $(this).prop('Counter',0).animate({
          Counter: $(this).text()
@@ -44,7 +26,35 @@ $(document).ready(function () {
       });
     }
     });
+
+
     });
+  $('#carousel2').owlCarousel({
+    loop: true, //Зацикливаем слайдер
+    margin: 50, //Отступ от элемента справа в 50px
+    nav: false, //Отключение навигации
+    autoplay: true,
+    smartSpeed: 1000, //Время движения слайда
+    autoplayTimeout: 8000, //Время смены слайда
+    items: 1,
+    dots: false,
+    autoplayTimeout: 10000,
+  });
+  $('#carousel1').owlCarousel({
+    loop: true, //Зацикливаем слайдер
+    margin: 50, //Отступ от элемента справа в 50px
+    nav: false, //Отключение навигации
+    autoplay: true,
+    smartSpeed: 1000, //Время движения слайда
+    autoplayTimeout: 8000, //Время смены слайда
+    items: 4,
+    dots: true,
+    nav: true,
+    autoplayTimeout: 10000,
+  });
+
+
+ 
 
 
   $('.carousel').carousel({
