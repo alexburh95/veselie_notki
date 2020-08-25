@@ -1936,18 +1936,18 @@ ol {
 
 }
 .bottom_menu_a {
-    color: #ffffff;
-    padding: 20px 5px;
-    width: 160px;
-font-family: "Sony",serif;
-    font-size: 11px;
-    letter-spacing: 1px;
-    font-size: 11px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 58px;
+  color: #ffffff;
+  padding: 20px 0px;
+  width: 160px;
+  font-family: "Sony",serif;
+  font-size: 11px;
+  letter-spacing: -1px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 58px;
+  text-align: center;
 
 
 
