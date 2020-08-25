@@ -1,84 +1,13 @@
-$(function () {
-
-  var target_block = $(".cifra1"); // Ищем блок 
-  var blockStatus = true;
-  var numb_start = $(".cifra1").text();
-
-  $(window).scroll(function () {
 
 
 
-    if (blockStatus) {
 
-      blockStatus = false; // Запрещаем повторное выполнение функции до следующей перезагрузки страницы.
-
-      $({
-        numberValue: 0
-      }).animate({
-        numberValue: numb_start
-      }, {
-
-        duration: 10000, // Продолжительность анимации, где 500 - 0.5 одной секунды, то есть 500 миллисекунд 
-        easing: "linear",
-
-        step: function (val) {
-
-          $(".cifra1").html(Math.ceil(val)); // Блок, где необходимо сделать анимацию
-
-        }
-
-
-      });
-
-    }
-
-  });
-
-});
-
-
-$(function () {
-
-  var target_block2 = $(".cifra2"); // Ищем блок 
-  var blockStatus2 = true;
-  var numb_start2 = $(".cifra2").text();
-
-  $(window).scroll(function () {
-
-
-
-    if (blockStatus2) {
-
-      blockStatus2 = false; // Запрещаем повторное выполнение функции до следующей перезагрузки страницы.
-
-      $({
-        numberValue: 0
-      }).animate({
-        numberValue: numb_start2
-      }, {
-
-        duration: 10000, // Продолжительность анимации, где 500 - 0.5 одной секунды, то есть 500 миллисекунд 
-        easing: "linear",
-
-        step: function (val) {
-
-          $(".cifra2").html(Math.ceil(val)); // Блок, где необходимо сделать анимацию
-
-        }
-
-
-      });
-
-    }
-
-  });
-
-});
+ 
 
 
 
 $(document).ready(function () {
-  $('.owl-carousel').owlCarousel({
+  $('#carousel2').owlCarousel({
     loop: true, //Зацикливаем слайдер
     margin: 50, //Отступ от элемента справа в 50px
     nav: false, //Отключение навигации
@@ -88,6 +17,33 @@ $(document).ready(function () {
     items: 1,
     dots: false,
   });
+  $('#carousel1').owlCarousel({
+    loop: true, //Зацикливаем слайдер
+    margin: 50, //Отступ от элемента справа в 50px
+    nav: false, //Отключение навигации
+    autoplay: true, //Автозапуск слайдера
+    smartSpeed: 1000, //Время движения слайда
+    autoplayTimeout: 8000, //Время смены слайда
+    items: 4,
+    dots: true,
+    nav: true,
+  });
+
+  $('.count').each(function () {
+    $(this).prop('Counter',0).animate({
+     Counter: $(this).text()
+     }, {
+      duration: 10000,
+      easing: 'linear',
+      step: function (now) {
+         $(this).text(Math.ceil(now));
+      }
+     });
+  });
+
+  $('.carousel').carousel({
+    interval: 2000
+  })
 });
 
 //modalki//

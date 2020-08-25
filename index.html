@@ -19,8 +19,10 @@
   <!--js-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <script src="owlcarousel/owl.carousel.min.js"></script>
   <!--font-->
+  <script src="https://use.fontawesome.com/156a07dbc3.js"></script>
   <link
     href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
@@ -32,8 +34,8 @@
   <title>Веселые нотки онлайн</title>
 </head>
 <header class="main-header">
-  <nav class="header_nav container">
-    <a class="main-logo" href="index.html"><img src="img/main-logo.png"></a>
+  <nav class="header_nav container-fluid">
+    <a class="main-logo" href="index.html"><img class="img_main" src="img/main-logo.png"></a>
 
     <div>
       <ul class="top_menu">
@@ -46,9 +48,10 @@
       </ul>
       <ul class="bottom_menu">
         <li><a href="index.html" class="bottom_menu_a blue">Главная</a></li>
+      
         <li><a href="countries&regins.html" class="bottom_menu_a purple">страны/регионы</a></li>
         <li><a href="uchastnik.html" class="bottom_menu_a sea">стать участником</a></li>
-        <li><a href="" class="bottom_menu_a blue">голосование</a></li>
+        <li><a href="" class="bottom_menu_a purple">конкурсы/голосование</a></li>
         <li><a href="" class="bottom_menu_a sea">стать зрителем</a></li>
         <li><a href="" class="bottom_menu_a purple">победители</a></li>
       </ul>
@@ -67,7 +70,7 @@
 
             <h2 class="happy_notes">Весёлые нотки<span> ⚹</span> HAPPY NOTES<span> ⚹</span> онлайн </h2>
         
-            <div class="owl-carousel owl-theme">
+            <div class="owl-carousel owl-theme" id="carousel2">
               <div class="sliders">
                 <img class="slider_img" src="img/slaid1.png">
                 <a class="a_region button b_blue knopka_slide_left" href="#">Подай заявку</a>
@@ -290,14 +293,7 @@
               <p>Весёлые нотки happy notes онлайн</p>
             </div>
             <img class="oblast_img" src="img/oblast_1.jpg">
-            <div class="row">
-              <div class="col-lg-6">
-                <button class="btn draw-border">Переход </button>
-              </div>
-              <div class="col-lg-6">
-                <button class="btn draw-border">Список</button>
-              </div>
-            </div>
+      
 
           </div>
 
@@ -313,14 +309,7 @@
               <p>Весёлые нотки happy notes онлайн</p>
             </div>
             <img class="oblast_img" src="img/oblast_2.jpg">
-            <div class="row">
-              <div class="col-lg-6">
-                <button class="btn draw-border">Переход </button>
-              </div>
-              <div class="col-lg-6">
-                <button class="btn draw-border">Список</button>
-              </div>
-            </div>
+          
 
           </div>
 
@@ -335,14 +324,7 @@
               <p>Весёлые нотки happy notes онлайн</p>
             </div>
             <img class="oblast_img" src="img/oblast_3.jpg">
-            <div class="row">
-              <div class="col-lg-6">
-                <button class="btn draw-border">Переход </button>
-              </div>
-              <div class="col-lg-6">
-                <button class="btn draw-border">Список</button>
-              </div>
-            </div>
+       
 
           </div>
 
@@ -357,14 +339,7 @@
               <p>Весёлые нотки happy notes онлайн</p>
             </div>
             <img class="oblast_img" src="img/oblast_4.jpg">
-            <div class="row">
-              <div class="col-lg-6">
-                <button class="btn draw-border">Переход </button>
-              </div>
-              <div class="col-lg-6">
-                <button class="btn draw-border">Список</button>
-              </div>
-            </div>
+         
 
           </div>
 
@@ -376,24 +351,284 @@
   <section class="cifra">
 
     <div class="container">
-        <h2 class="social_h2 ">О проекте в цифрах</h2>
+        <h2 class="cifra_project ">О проекте в цифрах</h2>
         <div class="row">
-            <div class="col-lg-2"><p class="cifra_p"><span>100 000</span><br>участников в мире</p></div>
-            <div class="col-lg-2 right"><p class="cifra_p"><span>60 000</span><br>участников в россии</p></div>
-            <div class="col-lg-2 right"><p class="cifra_p"><span>25</span><br>стран участниц</p></div>
-            <div class="col-lg-2"><p class="cifra_p"><span>85</span><br>субъектов рф</p></div>
-            <div class="col-lg-2"><p class="cifra_p"><span>30</span><br>в телеэфире</p></div>
+            <div class="col-lg-2"><p class="cifra_p"><span class="count">100000</span><br>участников в мире</p></div>
+            <div class="col-lg-2 right"><p class="cifra_p"><span class="count">60000</span><br>участников в россии</p></div>
+            <div class="col-lg-2 right"><p class="cifra_p"><span class= "count">25</span><br>стран участниц</p></div>
+            <div class="col-lg-2"><p class="cifra_p"><span class= "count">85</span><br>субъектов рф</p></div>
+            <div class="col-lg-2"><p class="cifra_p"><span class= "count">30</span><br>в телеэфире</p></div>
             <div class="col-lg-2 right"><p class="cifra_p"><span>Старт-2020</span><br>лет в интернете </p></div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-2"></div>
-            <div class="col-lg-2"></div>
+            <div class="col-lg-2"><p class="cifra_p"><span class= "count">50</span><br>на каналах tv-россии</p></div>
+            <div class="col-lg-2 right"><p class="cifra_p"><span class= "count">75</span><br>на каналах tv-мира</p></div>
+            <div class="col-lg-2 right"><p class="cifra_p"><span class= "count">1500</span><br>программ tv</p></div>
+            <div class="col-lg-2"><p class="cifra_p"><span class= "count">300</span><br>трансляций tv</p></div>
+            <div class="col-lg-2"><p class="cifra_p"><span class= "count">1800</span><br>конкурсов tv</p></div>
+            <div class="col-lg-2 right"><p class="cifra_p"><span>Старт-2020</span><br>конкурсов онлайн </p></div>
         </div>
 
     </div>
   </section>
 
+  <section  class="stat_uchastnilom">
+    <div class="container">
+      <h2 class="cifra_project ">Стать участником</h2>
+    
+<div class="row">
+  <div class="col-lg-6">
+    <div class="ucast">
+      <div class="divchik">
+        <h3 class="cifra_p">Если хочешь – пой!</h3>
+        <h3 class="cifra_p">Но не мимо – нот!</h3>
+      </div>
+        <div class="row">
+          <a class=" myLinkModal4" href="#!">
+            <img src="img/konkurs_k1.png" style="width:100%; min-height: 80px;">
+          </a>
+          <a class=" myLinkModal5" href="#!">
+            <img src="img/konkurs_k2.png" style="width:100%;min-height: 80px;">
+          </a>
+          <a class="" download="" href="plodovi.docx">
+            <img src="img/konkurs_k3.png" style="width:100%;min-height: 80px;">
+
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <p class="divchik_p">Учишься вокалу или нет!<br>Сильный голос или слабый!</p>
+          </div>
+          <div class="col-lg-6 right">
+            <p class="divchik_p ">Стань участником!<br>Если душа поет!</p>
+          </div>
+          <div class="col-lg-6">
+            <p class="divchik_p">Народный проект!<br> Народное Жюри!</p>
+          </div>
+          <div class="col-lg-6 right">
+            <p class="divchik_p ">Право-побеждать!<br> Честно голосовать!</p>
+          </div>
+          <div class="col-lg-6">
+            <p class="divchik_p">Все бесплатно!<br> Смелей!</p>
+          </div>
+          <div class="col-lg-6 right">
+            <p class="divchik_p ">Заполняй анкету!<br> Быстрей!</p>
+          </div>
+          <div class="col-lg-6"><a href="#"><img src="img/podat.png" style="width:100%;"></a></div>
+          <div class="col-lg-6"><a href="#"><img src="img/pravila.png" style="width:100%;"></a></div>
+        </div>
+      
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <img src="img/right_blok.png" alt="" style="width:100%;">
+  </div>
+</div>
+</div>
+  </section>
+  <section class=" girlquar">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 relative">
+          <h3>Визитная карточка конкурса</h3>
+          <div class="golden_bordik">
+            <img class="children" src="img/cod.png">
+            <img src="img/girl_fon.png" alt="Девочка" class="quar_img">
+
+          </div>
+          <h3>Наведи камеру на QR-код</h3>
+        </div>
+        <div class="col-lg-6"></div>
+      </div>
+      </div>
+  </section>
+   <section class="girlquars">
+       <div class="container">
+          <h2 class="social_h2">Мы в социальных сетях</h2>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="social_div">
+                <a href=""><img src="img/odno.png"></a>
+                <p class="p_social">Одноклассники</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social_div">
+                <a href=""><img src="img/ytub.png"></a>
+                <p class="p_social">YouTube</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social_div">
+                <a href=""><img src="img/vk.png"></a>
+                <p class="p_social">Вконтакте</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social_div">
+                <a href=""><img src="img/twiter.png"></a>
+                <p class="p_social">Twitter</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social_div">
+                <a href=""><img src="img/tik.png"></a>
+                <p class="p_social">TikTok</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social_div">
+                <a href=""><img src="img/insta.png"></a>
+                <p class="p_social">Instagram</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social_div">
+                <a href=""><img src="img/mir.png"></a>
+                <p class="p_social">Мой мир</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social_div">
+                <a href=""><img src="img/telega.png"></a>
+                <p class="p_social">Telegram</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social_div">
+                <a href=""><img src="img/fb.png"></a>
+                <p class="p_social">facebook</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="social_div">
+                <a href=""><img src="img/jj.png"></a>
+                <p class="p_social">ЖЖ (Живой Журнал)</p>
+              </div>
+            </div>
+          </div>
+       </div>
+   </section>
+   <section class="answer_questions">
+    <h2 class="social_h2 ">Ответы на вопросы</h2>
+    <div class="container">
+      <div class="col-lg-12">
+        <button class="accordion">ЧЕМ «ВЕСЕЛЫЕ НОТКИ»-ОНЛАЙН) ОТЛИЧАЕТСЯ ОТ ДРУГИХ КОНКУРСОВ?</button>
+        <div class="panel">
+          <p>Раритет! Является продолжением «Веселых Ноток» –  Первого в истории отечественного и  зарубежного телевидения Конкурса, созданного в 1972 году, проходившего на главной  телевизионной площадке страны – в Концертной Студии «Останкино»  в Москве. В 2022 году  «Веселые Нотки»  50-летие! «Веселые Нотки» опередили Европу и Детское Евровидение на 30 лет.</p>
+      
+        </div>
+
+        <button class="accordion">КАК ПОДАТЬ ЗАЯВКУ НА КОНКУРС?</button>
+        <div class="panel">
+          <ol>
+            <li>Ознакомьтесь с <strong>Правилами подачи Заявки</strong> на Главной странице (на странице «Стать Участником»).</li><li><strong>Выберите одну Песню</strong> в соответствии с одной из трех номинаций.</li><li><strong>Заполните Анкету </strong>на нашем портале вместе с родителем (законным представителем, если родителя нет) или руководителем вокального или вокально-инструментального ансамбля. Заполненную на портале Анкету можно будет либо скачать, распечатать, подписать (взрослым) и отправить обратно на портал. Либо поставить &nbsp;подпись на белом листе бумаге синей ручкой, сфотографировать ее и загрузить фото, которое &nbsp;автоматически прикрепится &nbsp;к Анкете</li><li>После заполненной Анкеты&nbsp; –&nbsp; <strong style="font-size: 16px;">Вам будет предложено загрузить&nbsp; свое фото и видео с &nbsp;уже записанной&nbsp; Песней на телефон или другой носитель.</strong></li></ol>
+        
+            <p><strong>Фотография</strong> должна быть цветной, четкой и снят крупный план (лицо) или средний план (по пояс)</p>
+            <p><strong>После загрузки видео – Анкета будет отправлена</strong> и Вы получите подтверждение. После этого она отправится модератору, будет передана Совету ФИРМ (Фонда имени Риммы Мишиной – главному организатору Конкурса). Ждите одобрение Анкеты, заходите чаще в своей Личный Кабинет</p>
+          </div>
+
+        <button class="accordion">КАКОЕ ВИДЕО ЗАГРУЗИТЬ И КАК?</button>
+        <div class="panel">
+          <p><strong>Эксклюзивное Видео! </strong>Вы должны сделать&nbsp; новую запись видео Песни специально для Конкурса, которое&nbsp; сможете использовать только после окончания Конкурса. Песню, которую Вы предоставляете на Конкурс (известную или не известную) – не должна нигде больше звучать до окончания Конкурса.</p>
+        
+          <p>Вы сможете спеть, как под оркестр, так и&nbsp; под гармошку, как под минусовку, так и спеть акапельно, если аккомпанировать Вам некому, а у Вас есть желание представить на Конкурс Песню.</p>
+          <p><strong>&nbsp;</strong>Видео может иметь любой формат, но чтобы Зритель за Вас&nbsp; проголосовал, – необходимо сделать&nbsp; качественное видео на любом носителе:&nbsp; видео-камера, айфон,&nbsp; андроид и т.д.</p>
+        </div>
+
+        <button class="accordion">КАК БУДЕТ ПРОХОДИТЬ КОНКУРС И ЧТО ПОЛУЧАТ ПОБЕДИТЕЛИ?</button>
+        <div class="panel">
+          <p>Конкурсы&nbsp; запускаются&nbsp;&nbsp; отдельно в каждой стране Мира&nbsp; и затем состоится&nbsp; общее соревнование «лучших из лучших».</p>
+          <p>В России – аналогичная схема по всем субъектам РФ, а затем – общее соревнование «лучших из лучших», представляемых каждым субъектом России.</p>
+          <p>Последние два Тура Конкурсов будут проходить совместно с телевизионными каналами России.</p>
+          <p>Все конкурсы будут проходить в 4 (четыре) Тура путем народного голосования («Народного Жюри»).</p>
+          <p>Победители в каждом регионе получат&nbsp; региональные Призы и все полуфиналисты и финалисты также получат награды&nbsp; в рамках пресс-конференций и&nbsp; в теле-эфирах.</p>
+          <p>Победители Всероссийского Конкурса «Веселые Нотки»-онлайн получат Главные Призы в рамках пресс-конференции в Москве, теле-эфирах и примут участие&nbsp; в юбилейных мероприятиях, посвященных 50-летию&nbsp; легендарных «Веселых Ноток»</p>
+        </div>
+
+        <button class="accordion">КТО МОЖЕТ ПРИНЯТЬ УЧАСТИЕ В «ВЕСЕЛЫХ НОТКАХ»-ОНЛАЙН И НА КАКИХ УСЛОВИЯХ?</button>
+        <div class="panel">
+          <p>Любой поющий ребенок или подросток (вокальный или вокально-инструментальный коллектив)</p>
+          <p>– <strong>в возрасте от 6 (шести) до 16 (шестнадцати) лет</strong>. Возрастные исключения возможны, решение в этом случае принимает &nbsp;Совет ФИРМ (Фонда имени Риммы Мишиной)</p>
+          <p>– <strong>вне зависимости от силы голоса, каждый ребенок или подросток сам решает: идти ему на&nbsp; Первый тур&nbsp; «Когда поют – все!» или нет</strong></p>
+          <p>– <strong>вне зависимости от того учится он (они) пению или нет.</strong> Приглашаются&nbsp; абсолютно все поющие дети.</p>
+          <p><strong>Есть незначительные ограничения</strong> (Участник должен быть вменяем, иметь здоровую психику и чисто петь, то есть, иметь слух)</p>
+          <p>На Первый Тур попадают абсолютно все вокалисты&nbsp; в&nbsp; своих региональных Конкурсах&nbsp;&nbsp; и победители каждого региона&nbsp; попадут в&nbsp; Финал Финалов&nbsp; –&nbsp; Конкурс Всероссийского масштаба. Никаких предварительных прослушиваний, никакого отбора на региональный Конкурс не будет! Выбирайте свой регион и подавайте Заявку!&nbsp;</p>
+          <p>Подробней – в Правилах Конкурса&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        </div>
+      </div>
+
+      
+    <h2 class="social_h2 ">Наши партнеры</h2>
+    <div class="owl-carousel owl-theme" id="carousel1">
+
+      <div> <img src="img/slaid_1.png" style="width:100%"> </div>
+      <div> <img src="img/slaid_2.png" style="width:100%"></div>
+      <div> <img src="img/slaid_3.jpg" style="width:100%"> </div>
+      <div> <img src="img/slaid_4.jpg" style="width:100%"> </div>
+
+    </div>
+<div class="uchast">
+  <p class="ucast_p">Уважаемые партнеры!</p>
+  <p class="ucast_p">«Веселые Нотки»-онлайн – масштабный народный проект.</p>
+  <p class="ucast_p">Главный организатор - некоммерческая организация – ФИРМ - Фонд имени Риммы Мишиной.  </p>
+  <p class="ucast_p">Огромное количество детей,  участвующих в  Конкурсе с призывом «Когда поют – все!»,  нуждаются в Вашей поддержке: информационной, спонсорской, финансовой. Мы хотим достучаться и  услышать  голос  каждого вокалиста, из самых отдаленных точек нашей необъятной  России  и целой  планеты, осчастливить всех участников, ведь это же дети! Приобщить их  к легенде российского телевидения – «Веселые Нотки»! </p>
+  <p class="ucast_p">На Главной странице представлены  партнеры, сотрудничающие  с   онлайн-Конкурсом «Веселые Нотки» в данный  отрезок времени, соответствующий определенному этапу  проведения  Конкурса.</p>
+</div>
+
+    </div>
+  </section>
+  <section class="rules contact_form">
+
+    <div class="container">
+      <h2 class="social_h2 ">Свяжитесь с нами</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <label for="passport"></label>
+          <input type="text" id="passport" name="passport" placeholder="ВАШЕ ИМЯ">
+          <label for="tel"></label>
+          <input type="tel" id="tel" name="tel" placeholder="ТЕЛЕФОН">
+          <label for="email"></label>
+          <input type="email" id="email" name="email" placeholder="EMAIL">
+          <textarea name="comment" id="comment-field" rows="5">ВАШЕ СООБЩЕНИЕ</textarea>
+          <p class="contact_p">Нажимая на кнопку «Отправить сообщение», вы соглашаетесь на обработку персональных данных
+            в соответствии с пользовательским соглашением</p>
+          <input class="b_brown knopochka" type="submit" value="Отправить сообщение">
+
+
+        </fieldset>
+      </form>
+</div>
+  </section>
+
+   
 </body>
-</html>
+
+<footer class="news_footer">
+  <script src="js/acardeon.js"></script>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4">
+      <h3 class="footer_h3">О нас</h3>
+      <p class="footer_p">Фонд поддержи юных вокалистов в миреимени Риммы Александровны Мишиной и продвижения идей ав- тора и создателя Первого Телевизи- онного Конкурса юных вокалистов и исполнителей популярной музыки «ВЕСЁЛЫЕ НОТКИ».</p>
+      <h2 class="h2_footer">Фонд имени Риммы Мишиной</h2>
+      <p class="footer_p">ИНН 7703460734<br>
+        КПП 770301001<br>
+        ОГРН 1187700010838<br>
+        Р/счет № 40703810638000012398<br>
+        Банк: ПАО СБЕРБАНК<br>
+        БИК: 044525225<br>
+        Корр. счет: 30101810400000000225</p>
+    </div>
+    <div class="col-lg-4"><img src="img/main-logo.png"></div>
+    <div class="col-lg-4"> <h3 class="footer_h3">Контакты</h3>
+    <p class="footer_p">Всемирный онлайн-Конкурс юных вокалистов и исполнителей популяр- ной музыки народов России и Мира ВЕСЕЛЫЕ НОТКИ / HAPPY NOTES</p>
+    <p class="footer_p"><i class="fa fa-phone" aria-hidden="true"></i>  <a href="tel:+74994639837"> +7 (499) 463-98-37</a></p>
+    <p class="footer_p"><i class="fa fa-phone" aria-hidden="true"></i>  <a href="tel:+79162098831"> +7 (916) 209-88-31</a></p>
+    <p class="footer_p"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:veselie-notki.onlain@yandex.ru"> veselie-notki.onlain@yandex.ru</a></p>
+    <p class="footer_p">Юридический и фактический адрес</p>
+    <p class="footer_p"><i class="fa fa-map-marker" aria-hidden="true"></i> Москва 123022, Ходынская улица</p>
+    <p class="footer_p"><i class="fa fa-map-marker" aria-hidden="true"></i> Дом 2, апартамент 1278</p>
+    </div>
+    </div>
+    </div>
+    </footer>
+  </html>
