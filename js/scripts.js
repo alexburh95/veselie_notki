@@ -28,18 +28,24 @@ $(document).ready(function () {
     dots: true,
     nav: true,
   });
+  jQuery(function($){
+    $("#viewport").viewportChecker({
+    callbackFunction:function(){
+      $('.count').each(function () {
+        $(this).prop('Counter',0).animate({
+         Counter: $(this).text()
+         }, {
+          duration: 10000,
+          easing: 'linear',
+          step: function (now) {
+             $(this).text(Math.ceil(now));
+          }
+         });
+      });
+    }
+    });
+    });
 
-  $('.count').each(function () {
-    $(this).prop('Counter',0).animate({
-     Counter: $(this).text()
-     }, {
-      duration: 10000,
-      easing: 'linear',
-      step: function (now) {
-         $(this).text(Math.ceil(now));
-      }
-     });
-  });
 
   $('.carousel').carousel({
     interval: 2000
