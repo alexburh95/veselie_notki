@@ -102,7 +102,7 @@ p {
 
 
 .top_a {
-  font-size: 12px;
+  font-size: 14px;
   font-family: Sony;
   color: rgb(4, 20, 98);
   text-transform: uppercase;
@@ -115,7 +115,7 @@ p {
   /* font-weight: 900; */
   white-space: nowrap;
   min-width: 160px;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
 
 }
 
@@ -963,7 +963,7 @@ div[class^="effect-"] {
   left: 63%;
 }
 
-.nom h4{
+.nom h4 {
   padding-top: 0%;
   color: #6dc7d6;
   font-family: 'Spectral', serif;
@@ -973,6 +973,7 @@ div[class^="effect-"] {
   text-align: left;
 
 }
+
 .knopka_slide_left_bottom_b {
   position: absolute;
   top: 77%;
@@ -1572,7 +1573,8 @@ ol {
   padding: 50px 0;
 }
 
-.girlquar, .girlquars {
+.girlquar,
+.girlquars {
   background-color: #000F64;
 }
 
@@ -1937,23 +1939,25 @@ ol {
   color: #55d7dc
 }
 
-.happy.aqua, .konkurs_p1.aqua {
+.happy.aqua,
+.konkurs_p1.aqua {
   color: #00FFFF;
 
 }
 
-.aqua{
+.aqua {
   color: #00FFFF;
 
 }
+
 .bottom_menu_a {
   color: #ffffff;
   padding: 20px 0px;
   width: 160px;
-  font-family: "Sony",serif;
-  font-size: 11px;
-  letter-spacing: -1px;
+  font-family: "Sony", serif;
+  letter-spacing: 0px;
   font-size: 14px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1962,71 +1966,75 @@ ol {
 
 
 
-  
-    text-align: center;
+
+  text-align: center;
 }
-.bottom_menu_a:hover{
-transform: scale(1.05);
-text-decoration: none;
-color: #ffffff;
+
+.bottom_menu_a:hover {
+  transform: scale(1.05);
+  text-decoration: none;
+  color: #ffffff;
 
 }
-.top_a:hover{
-  transform:scale(1.05);
+
+.top_a:hover {
+  transform: scale(1.05);
 }
-.blue{
+
+.blue {
   border-radius: 15px;
-  background-image: -moz-linear-gradient( 90deg, rgb(39,49,113) 5%, rgb(25,175,241) 39%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(39,49,113) 1%, rgb(25,175,241) 39%);
-  background-image: -ms-linear-gradient( 90deg, rgb(39,49,113) 5%, rgb(25,175,241) 39%);
+  background-image: -moz-linear-gradient(90deg, rgb(39, 49, 113) 5%, rgb(25, 175, 241) 39%);
+  background-image: -webkit-linear-gradient(90deg, rgb(39, 49, 113) 1%, rgb(25, 175, 241) 39%);
+  background-image: -ms-linear-gradient(90deg, rgb(39, 49, 113) 5%, rgb(25, 175, 241) 39%);
   box-shadow: 0px 0px 13px 0px rgba(255, 255, 255, 0.67), inset 0px -3px 5.58px 0.42px rgba(65, 73, 150, 0.42), 0 0 5px 1px #ffffff;
   text-shadow: 0px 0px 0px black, 0 0 1em #001537;
-  }
- 
+}
 
-.purple{
 
- 
-  
-    border-radius: 15px;
-    background-image: -moz-linear-gradient( 87deg, rgb(11,14,161) 0%, rgb(55,43,216) 100%);
-    background-image: -webkit-linear-gradient( 87deg, rgb(11,14,161) 0%, rgb(55,43,216) 100%);
-    background-image: -ms-linear-gradient( 87deg, rgb(11,14,161) 0%, rgb(55,43,216) 100%);
-    box-shadow: inset 1.999px -0.07px 8px 0px rgba(9, 20, 233, 0.43),inset -1.997px -0.105px 8px 0px rgba(9, 20, 233, 0.43),inset 0px 2px 8px 0px rgba(254, 252, 252, 0.43),inset 0px 1px 4px 0px rgba(254, 252, 252, 0.53), 0 0 5px 1px #ffffff;
-    text-shadow: 0px 0px 0px black, 0 0 1em #001537;
-  
-  }
-  
-
-  
- 
-  
+.purple {
 
 
 
-.sea{
-  
-    border-radius: 15px;
-    border-radius: 15px;
-    background-image: -moz-linear-gradient( 87deg, rgb(9,71,165) 0%, rgb(0,230,228) 50%);
-    background-image: -webkit-linear-gradient( 87deg, rgb(9,71,165) 0%, rgb(0,230,228) 50%);
-    background-image: -ms-linear-gradient( 87deg, rgb(9,71,165) 0%, rgb(0,230,228) 50%);
-    box-shadow: inset -2.113px -4.532px 9px 0px rgba(25, 85, 208, 0.3),inset 3.94px -3.078px 9px 0px rgba(25, 85, 208, 0.31),inset 0px -3px 3px 0px rgba(25, 85, 208, 0.67),0 0 5px 1px #ffffff;
-    text-shadow: 0px 0px 0px black, 0 0 1em #001537;
-  }
-  
+  border-radius: 15px;
+  background-image: -moz-linear-gradient(87deg, rgb(11, 14, 161) 0%, rgb(55, 43, 216) 100%);
+  background-image: -webkit-linear-gradient(87deg, rgb(11, 14, 161) 0%, rgb(55, 43, 216) 100%);
+  background-image: -ms-linear-gradient(87deg, rgb(11, 14, 161) 0%, rgb(55, 43, 216) 100%);
+  box-shadow: inset 1.999px -0.07px 8px 0px rgba(9, 20, 233, 0.43), inset -1.997px -0.105px 8px 0px rgba(9, 20, 233, 0.43), inset 0px 2px 8px 0px rgba(254, 252, 252, 0.43), inset 0px 1px 4px 0px rgba(254, 252, 252, 0.53), 0 0 5px 1px #ffffff;
+  text-shadow: 0px 0px 0px black, 0 0 1em #001537;
+
+}
 
 
 
 
-.konkurs{
-background-image: url('../img/konkurs_fon.png');
-background-repeat: no-repeat;
-background-size: cover;
+
+
+
+
+.sea {
+
+  border-radius: 15px;
+  border-radius: 15px;
+  background-image: -moz-linear-gradient(87deg, rgb(9, 71, 165) 0%, rgb(0, 230, 228) 50%);
+  background-image: -webkit-linear-gradient(87deg, rgb(9, 71, 165) 0%, rgb(0, 230, 228) 50%);
+  background-image: -ms-linear-gradient(87deg, rgb(9, 71, 165) 0%, rgb(0, 230, 228) 50%);
+  box-shadow: inset -2.113px -4.532px 9px 0px rgba(25, 85, 208, 0.3), inset 3.94px -3.078px 9px 0px rgba(25, 85, 208, 0.31), inset 0px -3px 3px 0px rgba(25, 85, 208, 0.67), 0 0 5px 1px #ffffff;
+  text-shadow: 0px 0px 0px black, 0 0 1em #001537;
+}
+
+
+
+
+
+.konkurs {
+  background-image: url('../img/konkurs_fon.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 
 
 }
-.cifra_project{
+
+.cifra_project {
   font-family: 'Sony', serif;
   line-height: 1.2;
   text-align: center;
@@ -2046,34 +2054,36 @@ background-size: cover;
 }
 
 
-.happy_notes_konkurs{
- margin: 0;
-    text-align: center;
-    font-family: 'Sony', serif;
-    font-size: 39px;
-    text-transform: uppercase;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    background-image: url(../img/hren2.jpg);
-    background-repeat: repeat;
-    background-position: center center;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: #015eec;
-    font-weight: 800;
+.happy_notes_konkurs {
+  margin: 0;
+  text-align: center;
+  font-family: 'Sony', serif;
+  font-size: 39px;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-image: url(../img/hren2.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #015eec;
+  font-weight: 800;
 }
-.konkurs_p{
+
+.konkurs_p {
 
   color: #ffffff;
-    font-family: 'Spectral', serif;
-    font-size: 26px;
-    color: rgb(255, 248, 235);
-    font-weight: 700;
-    line-height: 0.923;
-    text-align: left;
+  font-family: 'Spectral', serif;
+  font-size: 26px;
+  color: rgb(255, 248, 235);
+  font-weight: 700;
+  line-height: 0.923;
+  text-align: left;
 }
-.happy_notes_konkurs_bottom{
+
+.happy_notes_konkurs_bottom {
 
   text-align: left;
   font-family: 'Sony', serif;
@@ -2100,7 +2110,8 @@ background-size: cover;
   text-align: left;
   padding-top: 15px;
 }
-.happy_notes_konkurs_bottom1{
+
+.happy_notes_konkurs_bottom1 {
 
   text-align: left;
   font-family: 'Sony', serif;
@@ -2115,7 +2126,8 @@ background-size: cover;
   color: #015eec;
   font-weight: 800;
 }
-.rimma{
+
+.rimma {
   margin: 0;
   padding: 0;
   color: #ffffff;
@@ -2130,7 +2142,7 @@ background-size: cover;
   font-weight: 700;
 }
 
-.rimma_img{
+.rimma_img {
   width: 100%;
   margin-top: 100px;
 }
@@ -2150,6 +2162,7 @@ background-size: cover;
   background-position: center center;
   font-family: 'Sony';
 }
+
 .h4_nom {
   font-size: 25px;
   background: linear-gradient(90deg, #d67b20 12%, #fff285 25%, #d67b20 36%, #fff285 43%, #d67b20 59%, #84400c 94%);
@@ -2166,15 +2179,16 @@ background-size: cover;
   font-family: 'Sony';
 }
 
-.p_nom{
+.p_nom {
   font-size: 20px;
   font-family: 'Sony';
   color: rgb(109, 199, 214);
   line-height: 1.412;
   font-weight: 800;
   width: 85%;
- 
+
 }
+
 .nom .container {
   border-style: solid;
   /* border-width: 8px 3px 8px 3px; */
@@ -2189,16 +2203,18 @@ background-size: cover;
   border-width: 5px;
   border-radius: 82px;
 }
-.nom{
+
+.nom {
   background-color: #001537;
   padding-bottom: 100px;
 }
-.cifra{
+
+.cifra {
   background-color: #001537;
   padding: 100px 0;
 }
 
-.cifra_p span{
+.cifra_p span {
   color: #0087d1;
   font-weight: 800;
   font-size: 28px;
@@ -2242,16 +2258,17 @@ background-size: cover;
   z-index: 713;
 }
 
-.img_main{
-width: 100%;
+.img_main {
+  width: 100%;
 
 }
 
-.stat_uchastnilom{
+.stat_uchastnilom {
   background-color: #000F64;
 
 }
-.ucast{
+
+.ucast {
   background: linear-gradient(0deg, rgb(0, 22, 79) 0%, rgb(0, 11, 41) 0%, rgb(0, 0, 2) 0%, rgb(0, 11, 41) 32%, rgb(0, 22, 79) 80%);
   padding: 10px;
   display: flex;
@@ -2265,12 +2282,13 @@ width: 100%;
   flex-direction: column;
 }
 
-.divchik{
+.divchik {
   display: flex;
   justify-content: space-around;
   width: 100%;
 }
-.divchik_p{
+
+.divchik_p {
   font-size: 18px;
   font-family: "Sony [Rus by me]";
   color: rgb(255, 255, 255);
@@ -2278,7 +2296,7 @@ width: 100%;
   line-height: 1.091;
 }
 
-.ucast_p{
+.ucast_p {
   font-family: 'Spectral', serif;
   font-size: 20px;
   color: rgb(255, 248, 235);
@@ -2288,23 +2306,26 @@ width: 100%;
   padding-top: 15px;
   text-align: left;
 }
-.uchast{
-  background: linear-gradient(0deg, rgb(0, 22, 79) 0%, rgb(0, 11, 41) 0%, rgb(0, 0, 2) 0%, rgb(0, 11, 41) 32%, rgb(0, 22, 79) 80%);
-    padding: 20px;
 
-    border-image: linear-gradient(90deg, #ac7c4d 0%, #fffbce 12%, #542100 33%, #ffdbae 49%, #ac7c4d 61%, #fffbce 74%, #542100 84%, #ffdbae 99%);
-    border-width: 3px;
-    border-style: solid;
-    border-image-slice: 1;
-    /* justify-content: center; */
- 
-    
+.uchast {
+  background: linear-gradient(0deg, rgb(0, 22, 79) 0%, rgb(0, 11, 41) 0%, rgb(0, 0, 2) 0%, rgb(0, 11, 41) 32%, rgb(0, 22, 79) 80%);
+  padding: 20px;
+
+  border-image: linear-gradient(90deg, #ac7c4d 0%, #fffbce 12%, #542100 33%, #ffdbae 49%, #ac7c4d 61%, #fffbce 74%, #542100 84%, #ffdbae 99%);
+  border-width: 3px;
+  border-style: solid;
+  border-image-slice: 1;
+  /* justify-content: center; */
+
+
 }
-.news_footer{
+
+.news_footer {
 
   background: linear-gradient(0deg, rgb(0, 22, 79) 0%, rgb(0, 11, 41) 0%, rgb(0, 0, 2) 0%, rgb(0, 11, 41) 32%, rgb(0, 22, 79) 80%);
 }
-.footer_h3{
+
+.footer_h3 {
   color: #ffffff;
   font-size: 25px;
   padding-top: 110px;
@@ -2312,7 +2333,7 @@ width: 100%;
   position: relative;
 }
 
-.footer_h3::after{
+.footer_h3::after {
   background: #ffffff;
   content: '';
   width: 80%;
@@ -2342,10 +2363,10 @@ width: 100%;
 
 }
 
-.footer_p a{
+.footer_p a {
   text-decoration: none;
   color: #ffffff;
-  font-size:15px;
+  font-size: 15px;
 }
 
 

@@ -1,43 +1,35 @@
-
-
-
-
- 
-
-
-
 $(document).ready(function () {
 
   wow = new WOW({
-      boxClass: 'wow',
-      animateClass: 'animated',
-      offset: 50,
-      mobile: true,
-      live: true
+    boxClass: 'wow',
+    animateClass: 'animated',
+    offset: 50,
+    mobile: true,
+    live: true
   })
 
   new WOW().init();
-  jQuery(function($){
+  jQuery(function ($) {
     $("#viewport").viewportChecker({
-    callbackFunction:function(){
-    
-     
+      callbackFunction: function () {
 
-      $('.count').each(function () {
-        $(this).prop('Counter',0).animate({
-         Counter: $(this).text()
-         }, {
-          duration: 10000,
-          easing: 'linear',
-          step: function (now) {
-             $(this).text(Math.ceil(now));
-          }
-         });
-      });
-    }
+
+
+        $('.count').each(function () {
+          $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+          }, {
+            duration: 10000,
+            easing: 'linear',
+            step: function (now) {
+              $(this).text(Math.ceil(now));
+            }
+          });
+        });
+      }
     });
     $("#happy_2").viewportChecker({
-      callbackFunction:function(){
+      callbackFunction: function () {
         $('#carousel2').owlCarousel({
           autoplay: true,
           loop: true, //Зацикливаем слайдер
@@ -52,7 +44,7 @@ $(document).ready(function () {
         });
       }
     });
-    });
+  });
 
   $('#carousel1').owlCarousel({
     loop: true, //Зацикливаем слайдер
@@ -68,7 +60,7 @@ $(document).ready(function () {
   });
 
 
- 
+
 
 });
 

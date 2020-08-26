@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/animate.css">
 
   <!-- Базовые стили -->
   <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
@@ -18,8 +19,12 @@
   <!--js-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/scripts.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
   <script src="owlcarousel/owl.carousel.min.js"></script>
   <!--font-->
+  <script src="https://use.fontawesome.com/156a07dbc3.js"></script>
   <link
     href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
@@ -28,11 +33,11 @@
     href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
     rel="stylesheet">
 
-  <title>Страны/регионы</title>
+  <title>Веселые нотки онлайн</title>
 </head>
 <header class="main-header">
-  <nav class="header_nav container">
-    <a class="main-logo" href="index.html"><img src="img/main-logo.png"></a>
+  <nav class="header_nav container-fluid">
+    <a class="main-logo" href="index.html"><img class="img_main" src="img/main-logo.png"></a>
 
     <div>
       <ul class="top_menu">
@@ -45,9 +50,10 @@
       </ul>
       <ul class="bottom_menu">
         <li><a href="index.html" class="bottom_menu_a blue">Главная</a></li>
+
         <li><a href="countries&regins.html" class="bottom_menu_a purple">страны/регионы</a></li>
         <li><a href="uchastnik.html" class="bottom_menu_a sea">стать участником</a></li>
-        <li><a href="" class="bottom_menu_a blue">голосование</a></li>
+        <li><a href="" class="bottom_menu_a purple">конкурсы/голосование</a></li>
         <li><a href="" class="bottom_menu_a sea">стать зрителем</a></li>
         <li><a href="" class="bottom_menu_a purple">победители</a></li>
       </ul>
@@ -113,25 +119,43 @@
   </section>
 </body>
 
-<footer class="news_footer" style="height: 200px; outline: 5px solid red">
-  <!--
-      <input list="brows">
-  <datalist id="brow">
-    <option value="Internet Explorer">ИЭ</option>
-    <option value="Firefox">Фаер</option>
-    <option value="Chrome">Хром</option>
-    <option value="Opera">Опера</option>
-    <option value="Safari">Сафари</option>
-  
-  
-  </datalist>
-  <select name="year" id="brows">
-    <option value="2000">2000 год</option>
-    <option value="2001">2001 год</option>
-  </select>
-</!-->
-
-  <h2 style="text-align: center; font-size:50px">ПОДВАЛ</h2>
+<footer class="news_footer">
+  <script src="js/acardeon.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.viewportchecker.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h3 class="footer_h3">О нас</h3>
+        <p class="footer_p">Фонд поддержи юных вокалистов в миреимени Риммы Александровны Мишиной и продвижения идей ав-
+          тора и создателя Первого Телевизи- онного Конкурса юных вокалистов и исполнителей популярной музыки «ВЕСЁЛЫЕ
+          НОТКИ».</p>
+        <h2 class="h2_footer">Фонд имени Риммы Мишиной</h2>
+        <p class="footer_p">ИНН 7703460734<br>
+          КПП 770301001<br>
+          ОГРН 1187700010838<br>
+          Р/счет № 40703810638000012398<br>
+          Банк: ПАО СБЕРБАНК<br>
+          БИК: 044525225<br>
+          Корр. счет: 30101810400000000225</p>
+      </div>
+      <div class="col-lg-4"><img src="img/main-logo.png"></div>
+      <div class="col-lg-4">
+        <h3 class="footer_h3">Контакты</h3>
+        <p class="footer_p">Всемирный онлайн-Конкурс юных вокалистов и исполнителей популяр- ной музыки народов России и
+          Мира ВЕСЕЛЫЕ НОТКИ / HAPPY NOTES</p>
+        <p class="footer_p"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+74994639837"> +7 (499)
+            463-98-37</a></p>
+        <p class="footer_p"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:+79162098831"> +7 (916)
+            209-88-31</a></p>
+        <p class="footer_p"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a
+            href="mailto:veselie-notki.onlain@yandex.ru"> veselie-notki.onlain@yandex.ru</a></p>
+        <p class="footer_p">Юридический и фактический адрес</p>
+        <p class="footer_p"><i class="fa fa-map-marker" aria-hidden="true"></i> Москва 123022, Ходынская улица</p>
+        <p class="footer_p"><i class="fa fa-map-marker" aria-hidden="true"></i> Дом 2, апартамент 1278</p>
+      </div>
+    </div>
+  </div>
 </footer>
 
 
