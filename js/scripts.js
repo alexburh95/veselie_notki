@@ -7,10 +7,13 @@
 
 
 $(document).ready(function () {
+  let play = false;
+  console.log(play);
   new WOW().init();
   jQuery(function($){
     $("#viewport").viewportChecker({
     callbackFunction:function(){
+    
      
 
       $('.count').each(function () {
@@ -26,20 +29,24 @@ $(document).ready(function () {
       });
     }
     });
+    $("#happy_2").viewportChecker({
+      callbackFunction:function(){
+        $('#carousel2').owlCarousel({
+          autoplay: true,
+          loop: true, //Зацикливаем слайдер
+          margin: 50, //Отступ от элемента справа в 50px
+          nav: false, //Отключение навигации
+          smartSpeed: 1000, //Время движения слайда
+          autoplayTimeout: 5000, //Время смены слайда
+          items: 1,
+          dots: false,
+          autoplayTimeout: 5000,
 
-
+        });
+      }
     });
-  $('#carousel2').owlCarousel({
-    loop: true, //Зацикливаем слайдер
-    margin: 50, //Отступ от элемента справа в 50px
-    nav: false, //Отключение навигации
-    autoplay: true,
-    smartSpeed: 1000, //Время движения слайда
-    autoplayTimeout: 8000, //Время смены слайда
-    items: 1,
-    dots: false,
-    autoplayTimeout: 10000,
-  });
+    });
+
   $('#carousel1').owlCarousel({
     loop: true, //Зацикливаем слайдер
     margin: 50, //Отступ от элемента справа в 50px
@@ -56,10 +63,6 @@ $(document).ready(function () {
 
  
 
-
-  $('.carousel').carousel({
-    interval: 2000
-  })
 });
 
 //modalki//

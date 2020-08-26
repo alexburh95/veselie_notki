@@ -962,6 +962,16 @@ div[class^="effect-"] {
   left: 63%;
 }
 
+.nom h4{
+  padding-top: 0%;
+  color: #6dc7d6;
+  font-family: 'Spectral', serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: left;
+
+}
 .knopka_slide_left_bottom_b {
   position: absolute;
   top: 77%;
