@@ -7,8 +7,15 @@
 
 
 $(document).ready(function () {
-  let play = false;
-  console.log(play);
+
+  wow = new WOW({
+      boxClass: 'wow',
+      animateClass: 'animated',
+      offset: 50,
+      mobile: true,
+      live: true
+  })
+
   new WOW().init();
   jQuery(function($){
     $("#viewport").viewportChecker({
