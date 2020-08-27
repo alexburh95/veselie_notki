@@ -2421,10 +2421,13 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   color: black !important;
 }
 
+.footer_img{
+  width: 100%;
+}
 
 
 /*
-ÐÐ´Ð°Ð¿Ñ‚Ð¸Ð²
+Адаптив
 */
 
 @media only screen and (max-width:1500px) {
