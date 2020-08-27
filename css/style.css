@@ -1,13 +1,24 @@
 @font-face {
   font-family: 'Sony';
-  src: url('../fonts/Sony_rus.otf') format('truetype')
+  src: url('../fonts/SonyRusbyme.woff2') format('woff2'),
+  url('../fonts/SonyRusbyme.woff') format('woff'),
+  url('../fonts/SonyRusbyme.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
+
 
 body {
   font-family: "Spectral", sans-serif;
   margin: 0;
   padding: 0;
 
+}
+
+label{
+  font-family: Sony;
 }
 
 h2,
@@ -17,7 +28,7 @@ p {
 
 }
 
-.top_a:hover {
+.top_menu a:hover {
 
   text-decoration: none;
 }
@@ -28,7 +39,7 @@ p {
   background-image: url("../img/main-fon.png");
   background-repeat: no-repeat;
   background-size: cover;
-  outline: 5px solid red;
+ 
 
 }
 
@@ -85,7 +96,7 @@ p {
   padding: 50px 0;
 }
 
-.bottom_a {
+.bottom_menu a {
 
   font-size: 12px;
   font-family: "Spectral";
@@ -101,7 +112,7 @@ p {
 
 
 
-.top_a {
+.top_menu a{
   font-size: 14px;
   font-family: Sony;
   color: rgb(4, 20, 98);
@@ -694,7 +705,7 @@ div[class^="effect-"] {
   padding-top: 100px;
 }
 
-.В_конкурсе_четыре_тура_I_Тур___КОГДА_ПОЮТ_—_ВСЕ {
+.Ð’_ÐºÐ¾Ð½ÐºÑƒÑ€ÑÐµ_Ñ‡ÐµÑ‚Ñ‹Ñ€Ðµ_Ñ‚ÑƒÑ€Ð°_I_Ð¢ÑƒÑ€___ÐšÐžÐ“Ð”Ð_ÐŸÐžÐ®Ð¢_â€”_Ð’Ð¡Ð• {
   font-size: 48px;
   font-family: "Sony [Rus by me]";
   color: rgb(0, 170, 255);
@@ -1361,10 +1372,6 @@ li {
   display: none;
 }
 
-.blue {
-  background-color: #6EC1E4;
-}
-
 .dark_blue {
 
   background-color: #4054B2;
@@ -1380,14 +1387,6 @@ li {
   font-family: "Spectral";
   text-align: center;
   font-size: 12px;
-}
-
-.blue:hover {
-  background-color: #D8AE7B;
-  text-decoration: none;
-  color: #ffffff;
-
-
 }
 
 .dark_blue:hover {
@@ -1950,7 +1949,7 @@ ol {
 
 }
 
-.bottom_menu_a {
+.bottom_menu a {
   color: #ffffff;
   padding: 20px 0px;
   width: 160px;
@@ -1970,18 +1969,18 @@ ol {
   text-align: center;
 }
 
-.bottom_menu_a:hover {
+.bottom_menu a:hover {
   transform: scale(1.05);
   text-decoration: none;
   color: #ffffff;
 
 }
 
-.top_a:hover {
+.top_menu a:hover {
   transform: scale(1.05);
 }
 
-.blue {
+.blue>a {
   border-radius: 15px;
   background-image: -moz-linear-gradient(90deg, rgb(39, 49, 113) 5%, rgb(25, 175, 241) 39%);
   background-image: -webkit-linear-gradient(90deg, rgb(39, 49, 113) 1%, rgb(25, 175, 241) 39%);
@@ -1991,7 +1990,7 @@ ol {
 }
 
 
-.purple {
+.purple>a {
 
 
 
@@ -2011,7 +2010,7 @@ ol {
 
 
 
-.sea {
+.sea>a {
 
   border-radius: 15px;
   border-radius: 15px;
@@ -2247,7 +2246,7 @@ ol {
 }
 
 
-.Фон {
+.Ð¤Ð¾Ð½ {
   border-radius: 15px;
   background-color: rgb(55, 43, 216);
   position: absolute;
@@ -2369,10 +2368,63 @@ ol {
   font-size: 15px;
 }
 
+.wpuf-form-add{
+  padding: 24px
+}
+
+ul.wpuf-form li:last-child {
+  text-align: center;
+}
+
+.wpuf-submit{
+  text-align: center;
+}
+
+.wpuf-submit .wpuf-label{
+  float: none !important;
+}
+
+#anketa-form, .wpuf-form-add{
+  background-color: white;
+  margin: 47px 0px;
+  border-radius: 20px;
+}
+
+#anketa-form .acf-fields .acf-button{
+  padding: 5px 20px;
+  margin-left: 10px;
+}
+
+#anketa-form .acf-form-submit{
+  text-align: center;
+  padding: 20px 0;
+}
+
+#anketa-form .acf-fields input{
+  border: 2px solid black;
+  border-radius: 6px !important;
+}
+
+#anketa-form .acf-input-prepend{
+  font-weight: bold;
+}
+
+.regions ul{
+  list-style: none;
+}
+
+div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="zayavlenie"] label{
+  color: red;
+}
+
+.select2-container--default li{
+  color: black !important;
+}
+
 
 
 /*
-Адаптив
+ÐÐ´Ð°Ð¿Ñ‚Ð¸Ð²
 */
 
 @media only screen and (max-width:1500px) {
@@ -2407,6 +2459,20 @@ ol {
 
 
 @media only screen and (max-width:1200px) {
+
+  .img_main {
+    width: 70%;
+}
+.top_menu a {
+  font-size: 12px;
+  min-width: 130px;
+}
+.bottom_menu a {
+
+  width: 130px;
+
+  font-size: 12px;
+}
   .knopka_uchsctnik_top {
 
     font-size: 10px;
@@ -2417,12 +2483,7 @@ ol {
     margin-left: 40px;
   }
 
-  .news_footer,
-  .main-header {
-    display: none;
-
-
-  }
+  
 
   .knopka_slide_left {
     top: 0%;
