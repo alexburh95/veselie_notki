@@ -3,7 +3,7 @@ $(document).ready(function () {
   wow = new WOW({
     boxClass: 'wow',
     animateClass: 'animated',
-    offset: 50,
+    offset: 0,
     mobile: true,
     live: true
   })
