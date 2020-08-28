@@ -13,9 +13,10 @@
 body {
   font-family: "Spectral", sans-serif;
   margin: 0;
-  padding: 0;
+
 
 }
+
 
 label{
   font-family: Sony;
@@ -3060,10 +3061,15 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:576px) {
+  .konkurs .row{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .cifra_p span {
+    font-size: 14px;
+}
   .footer_p a {
-    font-size: 20px;
-    /* letter-spacing: 10px; */
-    line-height: 30px;
+    font-size: 10px;
   }
   .footer_h3::after{
     display: none;
@@ -3087,11 +3093,9 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   .ucast{
     text-align:center;
   }
-  .cifra_p span {
-    font-size: 35px;
-}
-.cifra_p {
-  font-size: 20px;
+
+  .cifra_p {
+    font-size: 7px;
 }
 
   .nom h4 {
