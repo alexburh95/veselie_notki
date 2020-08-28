@@ -36,13 +36,20 @@
 
   <title>Веселые нотки онлайн</title>
 </head>
-<header class="main-header">
-  <nav class="header_nav container-fluid">
+<header class="main-header header">
+  <nav class="header_nav container-fluid" id="hamnav">
+    
     <a class="main-logo" href="index.html"><img class="img_main" src="img/main-logo.png"></a>
-
-
-    <div>
-      <ul class="top_menu">
+ 
+    <input type="checkbox" id="hamburger"/>
+    <input type="checkbox" id="hi">
+    <label class="menu" for="hi">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </label>
+    <div id="hamitems">
+      <ul class="top_menu ">
         <li><a href="#" >Пожертвования</a></li>
         <li><a href="#" >Совет фирм</a></li>
         <li><a href="news.html" >Новости</a></li>
@@ -139,7 +146,7 @@
             главных номинации:</p>
           <div class="row  animated wow bounceInLeft" data-wow-duration="2s" data-wow-delay="10ms">
 
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4 col-sm-4">
               <a href="#!">
                 <img src="img/konkurs_k1.png" style="width:100%; min-height: 80px;">
               </a>
@@ -174,7 +181,7 @@
 
 
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-4">
               <a  href="#!">
                 <img src="img/konkurs_k2.png" style="width:100%;min-height: 80px;">
               </a>
@@ -199,7 +206,7 @@
 
 
 
-         <div class="col-lg-4">
+         <div class="col-lg-4 col-md-4 col-sm-4">
               <a class="" download="" href="plodovi.docx">
                 <img src="img/konkurs_k3.png" style="width:100%;min-height: 80px;">
   
@@ -226,9 +233,9 @@
             Евровидения. «Весёлые Нотки» 1970-х - 1990-х годов охватили всю Россию, СССР и 10 дружественных стран (ныне
             – 25 стран СНГ и Евросоюза).</p>
         </div>
-        <div class="col-lg-6"></div>
+        <div class="col-lg-6 "></div>
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <img src="img/men.png" alt="Дмитрий Мишин" style="width:100%;" class="  animated wow bounceInLeft"
               data-wow-duration="2s" data-wow-delay="100ms">
             <p class="konkurs_p1  animated wow bounceInLeft" data-wow-duration="2s" data-wow-delay="10ms">Запуск
@@ -241,7 +248,7 @@
             <p class=" konkurs_p1  animated wow bounceInLeft" data-wow-duration="2s" data-wow-delay="10ms">
               https://veselie-notki-rimma-mishina.ru/uchrediteli/</p>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-md-6">
             <img src="img/women.png" alt="Екатерина Кириллова" style="width:100%;" class="animated wow bounceInRight"
               data-wow-duration="2s" data-wow-delay="100ms">
             <p class="konkurs_p1 animated wow bounceInRight" data-wow-duration="2s" data-wow-delay="10ms">Весёлые Нотки
@@ -279,7 +286,7 @@
     <div class="container animated wow zoomIn" data-wow-duration="2s" data-wow-delay="10ms">
       <h2 class="social_h2 ">КОГДА ПОЮТ – ВСЕ!</h2>
       <div class="row">
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4 col-sm-4">
           <h3 class="h3_nom">НОМИНАЦИЯ-1</h3>
           <a class=" myLinkModal4" href="#!"><img src="img/nom-1.png" alt="" style="width:100%;"></a>
           <p class="h4_nom">приз</p>
@@ -288,7 +295,7 @@
           <h4>Любая песня</h4>
 
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4 col-sm-4">
           <h3 class="h3_nom">НОМИНАЦИЯ-2</h3>
           <a class=" myLinkModal4" href="#!"><img src="img/nom-2.png" alt="" style="width:100%;"></a>
           <p class="h4_nom">приз</p>
@@ -296,7 +303,7 @@
           <h4>Песня о Мире во всем Мире</h4>
 
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-md-4 col-sm-4">
           <h3 class="h3_nom">НОМИНАЦИЯ-3</h3>
           <a class=" myLinkModal4" href="#!"><img src="img/nom-3.png" alt="" style="width:100%;"></a>
           <p class="h4_nom">приз</p>
@@ -334,7 +341,7 @@
     <div class="container">
       <ul class="row">
 
-        <li class="col-lg-3 animated wow zoomIn" data-wow-duration="2s" data-wow-delay="10ms">
+        <li class="col-lg-3 col-md-6 col-sm-6 animated wow zoomIn" data-wow-duration="2s" data-wow-delay="10ms">
           <a class="a_region" href="single_region.html">
             <h3 class="h3_region">Волгоградская область<br> <span>Россия</span></h3>
           </a>
@@ -350,7 +357,7 @@
 
 
         </li>
-        <li class="col-lg-3 animated wow zoomIn" data-wow-duration="2s" data-wow-delay="10ms">
+        <li class="col-lg-3 col-md-6 col-sm-6 animated wow zoomIn" data-wow-duration="2s" data-wow-delay="10ms">
           <a class="a_region" href="single_region.html">
             <h3 class="h3_region">Республика Чувашия<br> <span>Россия</span></h3>
           </a>
@@ -365,7 +372,7 @@
           </div>
 
         </li>
-        <li class="col-lg-3 animated wow zoomIn" data-wow-duration="2s" data-wow-delay="10ms">
+        <li class="col-lg-3 col-md-6 col-sm-6 animated wow zoomIn" data-wow-duration="2s" data-wow-delay="10ms">
           <a class="a_region" href="single_region.html">
             <h3 class="h3_region">Республика Марий Эл<br> <span>Россия</span></h3>
           </a>
@@ -380,7 +387,7 @@
           </div>
 
         </li>
-        <li class="col-lg-3 animated wow zoomIn" data-wow-duration="2s" data-wow-delay="10ms">
+        <li class="col-lg-3 col-md-6 col-sm-6 animated wow zoomIn" data-wow-duration="2s" data-wow-delay="10ms">
           <a class="a_region" href="single_region.html">
             <h3 class="h3_region">Республика Татарстан<br> <span>Россия</span></h3>
           </a>
@@ -405,40 +412,40 @@
       <h2 class="cifra_project animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="10ms">О проекте в цифрах
       </h2>
       <div class="row">
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-2 col-sm-2">
           <p class="cifra_p"><span class="count">100000</span><br>участников в мире</p>
         </div>
-        <div class="col-lg-2 right">
+        <div class="col-lg-2 col-md-2 right col-sm-2">
           <p class="cifra_p"><span class="count">60000</span><br>участников в россии</p>
         </div>
-        <div class="col-lg-2 right">
+        <div class="col-lg-2 col-md-2 right col-sm-2">
           <p class="cifra_p"><span class="count">25</span><br>стран участниц</p>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-2 col-sm-2">
           <p class="cifra_p"><span class="count">85</span><br>субъектов рф</p>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-2 col-sm-2">
           <p class="cifra_p"><span class="count">30</span><br>в телеэфире</p>
         </div>
-        <div class="col-lg-2 right">
+        <div class="col-lg-2 col-md-2 right col-sm-2">
           <p class="cifra_p"><span>Старт-2020</span><br>лет в интернете </p>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-2 col-sm-2">
           <p class="cifra_p"><span class="count">50</span><br>на каналах tv-россии</p>
         </div>
-        <div class="col-lg-2 right">
+        <div class="col-lg-2 col-md-2 right col-sm-2">
           <p class="cifra_p"><span class="count">75</span><br>на каналах tv-мира</p>
         </div>
-        <div class="col-lg-2 right">
+        <div class="col-lg-2 col-md-2 right col-sm-2">
           <p class="cifra_p"><span class="count">1500</span><br>программ tv</p>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-2 col-sm-2">
           <p class="cifra_p"><span class="count">300</span><br>трансляций tv</p>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 col-md-2 col-sm-2">
           <p class="cifra_p"><span class="count">1800</span><br>конкурсов tv</p>
         </div>
-        <div class="col-lg-2 right">
+        <div class="col-lg-2 col-md-2 right col-sm-2">
           <p class="cifra_p"><span>Старт-2020</span><br>конкурсов онлайн </p>
         </div>
       </div>
@@ -455,42 +462,48 @@
         <div class="col-lg-6">
           <div class="ucast animated wow zoomIn" data-wow-duration="2s" data-wow-delay="10ms">
             <div class="divchik">
-              <h3 class="cifra_p">Если хочешь – пой!</h3>
-              <h3 class="cifra_p">Но не мимо – нот!</h3>
+              <h3 class="cifra_pp">Если хочешь – пой!</h3>
+              <h3 class="cifra_pp">Но не мимо – нот!</h3>
             </div>
             <div class="row">
-              <a class=" myLinkModal4" href="#!">
-                <img src="img/konkurs_k1.png" style="width:100%; min-height: 80px;">
-              </a>
-              <a class=" myLinkModal5" href="#!">
-                <img src="img/konkurs_k2.png" style="width:100%;min-height: 80px;">
-              </a>
-              <a class="" download="" href="plodovi.docx">
-                <img src="img/konkurs_k3.png" style="width:100%;min-height: 80px;">
-
-              </a>
+             <div class="col-lg-4 col-md-4 col-sm-4">
+                <a class="" href="#!">
+                  <img src="img/konkurs_k1.png" >
+                </a>
+             </div >
+             <div class="col-lg-4 col-md-4 col-sm-4">
+                <a class="" href="#!">
+                  <img src="img/konkurs_k2.png" >
+                </a>
+             </div>
+              <div class= "col-lg-4 col-md-4 col-sm-4">
+                <a class="" download="" href="plodovi.docx">
+                  <img src="img/konkurs_k3.png" >
+  
+                </a>
+              </div>
             </div>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6 col-sm-6">
                 <p class="divchik_p">Учишься вокалу или нет!<br>Сильный голос или слабый!</p>
               </div>
-              <div class="col-lg-6 right">
+              <div class="col-lg-6 right col-md-6 col-sm-6">
                 <p class="divchik_p ">Стань участником!<br>Если душа поет!</p>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6 col-sm-6">
                 <p class="divchik_p">Народный проект!<br> Народное Жюри!</p>
               </div>
-              <div class="col-lg-6 right">
+              <div class="col-lg-6 right col-md-6 col-sm-6">
                 <p class="divchik_p ">Право-побеждать!<br> Честно голосовать!</p>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 col-md-6 col-sm-6">
                 <p class="divchik_p">Все бесплатно!<br> Смелей!</p>
               </div>
-              <div class="col-lg-6 right">
+              <div class="col-lg-6 right col-md-6 col-sm-6">
                 <p class="divchik_p ">Заполняй анкету!<br> Быстрей!</p>
               </div>
-              <div class="col-lg-6"><a href="#"><img src="img/podat.png" style="width:100%;"></a></div>
-              <div class="col-lg-6"><a href="#"><img src="img/pravila.png" style="width:100%;"></a></div>
+              <div class="col-lg-6 col-md-6 col-sm-6"><a href="#"><img src="img/podat.png"></a></div>
+              <div class="col-lg-6 col-md-6 col-sm-6"><a href="#"><img src="img/pravila.png"> </a></div>
             </div>
 
           </div>
@@ -533,61 +546,61 @@
     <div class="container  animated wow bounceInUp" data-wow-duration="2s" data-wow-delay="10ms">
       <h2 class="social_h2">Мы в социальных сетях</h2>
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <div class="social_div">
             <a href=""><img src="img/odno.png"></a>
             <p class="p_social">Одноклассники</p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <div class="social_div">
             <a href=""><img src="img/ytub.png"></a>
             <p class="p_social">YouTube</p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <div class="social_div">
             <a href=""><img src="img/vk.png"></a>
             <p class="p_social">Вконтакте</p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <div class="social_div">
             <a href=""><img src="img/twiter.png"></a>
             <p class="p_social">Twitter</p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <div class="social_div">
             <a href=""><img src="img/tik.png"></a>
             <p class="p_social">TikTok</p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <div class="social_div">
             <a href=""><img src="img/insta.png"></a>
             <p class="p_social">Instagram</p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <div class="social_div">
             <a href=""><img src="img/mir.png"></a>
             <p class="p_social">Мой мир</p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <div class="social_div">
             <a href=""><img src="img/telega.png"></a>
             <p class="p_social">Telegram</p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <div class="social_div">
             <a href=""><img src="img/fb.png"></a>
             <p class="p_social">facebook</p>
           </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 col-md-6">
           <div class="social_div">
             <a href=""><img src="img/jj.png"></a>
             <p class="p_social">ЖЖ (Живой Журнал)</p>
@@ -742,7 +755,7 @@
   <script src="js/jquery.viewportchecker.js"></script>
   <div class="container">
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4 col-sm-4">
         <h3 class="footer_h3">О нас</h3>
         <p class="footer_p">Фонд поддержи юных вокалистов в миреимени Риммы Александровны Мишиной и продвижения идей ав-
           тора и создателя Первого Телевизи- онного Конкурса юных вокалистов и исполнителей популярной музыки «ВЕСЁЛЫЕ
@@ -756,8 +769,8 @@
           БИК: 044525225<br>
           Корр. счет: 30101810400000000225</p>
       </div>
-      <div class="col-lg-4"><img src="img/main-logo.png" class="footer_img"></div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 col-md-4 col-sm-4"><img src="img/main-logo.png" class="footer_img"></div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
         <h3 class="footer_h3">Контакты</h3>
         <p class="footer_p">Всемирный онлайн-Конкурс юных вокалистов и исполнителей популяр- ной музыки народов России и
           Мира ВЕСЕЛЫЕ НОТКИ / HAPPY NOTES</p>

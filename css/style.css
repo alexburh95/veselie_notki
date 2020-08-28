@@ -2244,6 +2244,23 @@ ol {
 
 
 }
+.cifra_pp {
+  font-size: 21px;
+  font-family: 'Sony';
+  color: rgb(248, 171, 87);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
+  /* display: table; */
+  font-weight: 800;
+  background-image: url(../img/brown.jpg);
+  background-repeat: repeat;
+  background-position: center center;
+
+
+}
+
 
 
 .Ð¤Ð¾Ð½ {
@@ -2425,6 +2442,18 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   width: 100%;
 }
 
+#hamnav label, #hamburger { display: none; }
+
+/* Horizontal Menu Items */
+#hamitems { display: flex;flex-direction: column; }
+
+
+#hamnav {
+  width: 100%;
+  /* Optional */
+  position: sticky;
+ 
+}
 
 /*
 Адаптив
@@ -2459,9 +2488,99 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   }
 
 }
+.ucast img{
+  width:100%;
+}
+.menu {
+ 
+
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  height: 50px;
+}
+
+.menu:hover .bar {
+  box-shadow: 1px 1px 7px 1px RGBa(0, 0, 0, 0.3);
+}
+.menu .bar {
+  width: 55px;
+  height: 10px;
+  background: #fff;
+  box-shadow: 1px 1px 3px RGBa(0, 0, 0, 0.4);
+  border-radius: 2px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.menu .bar:not(:first-child) {
+  margin-top: 10px;
+}
+
+#hi {
+  position: absolute;
+  left: -999px;
+  top: -999px;
+}
+
+#hi:checked + .menu {
+  -webkit-transform: translate(-50%, -50%) rotatey(180deg);
+          transform: translate(-50%, -50%) rotatey(180deg);
+}
+#hi:checked + .menu .bar {
+  -webkit-transform: rotatey(180deg) rotatex(360deg);
+          transform: rotatey(180deg) rotatex(360deg);
+}
+#hi:checked + .menu .bar:first-child {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  margin-top: 20px;
+}
+#hi:checked + .menu .bar:nth-child(2) {
+  opacity: 0;
+}
+#hi:checked + .menu .bar:nth-child(3) {
+  margin-top: -30px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
 
 
 @media only screen and (max-width:1200px) {
+  .footer_p a {
+    
+    font-size: 12px;
+}
+  .divchik_p {
+    font-size: 17px;
+  }
+  .cifra_p {
+    font-size: 17px;
+    padding-right: 5px;
+  }
+  .h3_region {
+
+    font-size: 17px;
+  }
+  .social_h2 {
+   
+    font-size: 40px;
+  }
+  .happy_notes_konkurs_bottom1 {
+    text-align: left;
+    font-family: 'Sony', serif;
+    font-size: 30px;
+  }
+  .happy_notes_konkurs_bottom {
+ 
+    font-size: 40px;
+  }
+  .konkurs_p {
+    color: #ffffff;
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+  }
 
   .img_main {
     width: 70%;
@@ -2508,10 +2627,39 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     left: 70%;
 
   }
-
+  .cifra_p span {
+    color: #0087d1;
+    font-weight: 800;
+    font-size: 23px;
+  }
 }
 
 @media only screen and (max-width:992px) {
+  .footer_p {
+    font-size: 15.447px;
+  }
+  .cifra_p {
+    font-size: 11px;
+  }
+  .h3_nom {
+    margin-top: 20px;
+    font-size: 23.424px;
+  }
+  .cifra_p span {
+    color: #0087d1;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .top_menu a {
+    font-size: 10px;
+    min-width: 100px;
+    width: 100px;
+  }
+  .bottom_menu a {
+    width: 100px;
+    font-size: 9px;
+    min-width: 100px;
+}
   .o1 {
     order: 1;
 
@@ -2643,6 +2791,96 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:768px) {
+  .cifra_p {
+    font-size: 9px;
+    text-align: center;
+}
+  
+  .cifra_project {
+ 
+    font-size: 40px;
+  }
+  .nom h4 {
+
+    font-size: 12px;
+  }
+  .h3_nom {
+    font-size: 15.424px;
+  }
+  .social_h2 {
+    font-size: 33px;
+}
+  .happy_notes_konkurs {
+    margin: 0;
+    text-align: center;
+    font-family: 'Sony', serif;
+    font-size: 30px;
+  }
+  .happy_notes_konkurs_bottom {
+    text-align: center;
+  }
+  .konkurs_p {
+ 
+    text-align: center;
+  }
+
+  .konkurs_p1 {
+    text-align: center;
+  }
+  .happy_notes_konkurs_bottom1 {
+    text-align: center;
+  }
+  .header_nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+  #hamnav label { 
+    display: inline-block;
+    color: white;
+    /* background: #a02620; */
+    font-style: normal;
+    font-size: 3.2em;
+    padding: 10px;
+  }
+
+  /* Break down menu items into vertical */
+
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+    /* border-radius: 7px; */
+    /* padding: 16px; */
+    margin: 0px;
+    width: 150px;
+    /* margin: 10px; */
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 12px; */
+    margin: 10px;
+}
+
+  /* Toggle Show/Hide Menu */
+  #hamitems { display: none;display: none;
+    width: 230px;  }
+
+
+    #hamnav input:checked ~ #hamitems {
+      display: block;
+      border: 2px solid beige;
+      /* text-align: center; */
+      /* margin: 0 auto; */
+      background: linear-gradient(0deg, rgb(0, 22, 79) 0%, rgb(0, 11, 41) 0%, rgb(0, 0, 2) 0%, rgb(0, 11, 41) 32%, rgb(0, 22, 79) 80%);
+  }
   .right {
     text-align: center;
     /* padding: 0px 30px; */
@@ -2669,10 +2907,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     font-size: 25px;
   }
 
-  .social_h2 {
 
-    font-size: 45px;
-  }
 
   .knopka_slide_left_bottom_b {
     top: 60%;
@@ -2790,6 +3025,15 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:650px) {
+
+.header_nav {
+    display: flex;
+    align-items: baseline;
+}
+  .cifra_p span {
+   
+    font-size: 17px;
+  }
   .slide3_h3_left {
     top: 40%;
     left: 5%;
@@ -2812,6 +3056,50 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:576px) {
+  .footer_p a {
+    font-size: 20px;
+    /* letter-spacing: 10px; */
+    line-height: 30px;
+  }
+  .footer_h3::after{
+    display: none;
+}
+
+  .news_footer .row{
+    text-align: center
+  }
+  .news_footer::after{
+
+    display:none;
+  }
+  .footer_h3 {
+    color: #ffffff;
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .footer_img {
+    width: 50%;
+}
+  .ucast{
+    text-align:center;
+  }
+  .cifra_p span {
+    font-size: 35px;
+}
+.cifra_p {
+  font-size: 20px;
+}
+
+  .nom h4 {
+    font-size: 12px;
+    text-align: center;
+}
+  .konkurs .row, .nom .row{
+    text-align: center;
+  }
+  .happy_notes {
+    font-size: 26px;
+}
   .videorolik_uch {
     width: 100%;
 
@@ -3086,6 +3374,9 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:360px) {
+  .cifra_pp {
+    font-size: 18px;
+  }
   .planet_h2_bottom {
     font-size: 15px;
   }
