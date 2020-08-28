@@ -660,11 +660,7 @@ div[class^="effect-"] {
 
 }
 
-.slider_img {
-  width: 100%;
-  height: 100hv;
 
-}
 
 .s1 {
   background-image: url(../img/slaid1.png);
@@ -806,8 +802,8 @@ div[class^="effect-"] {
   text-transform: uppercase;
   font-weight: 800;
   position: absolute;
-  top: 30%;
-  left: 20%;
+  top: 23%;
+  left: 21%;
   color: #00ecea;
   font-family: 'Spectral', serif;
   font-size: 45px;
@@ -818,8 +814,8 @@ div[class^="effect-"] {
   text-transform: uppercase;
   font-weight: 800;
   position: absolute;
-  top: 30%;
-  left: 65%;
+  top: 23%;
+  left: 66%;
   color: #00ecea;
   font-family: 'Spectral', serif;
   font-size: 45px;
@@ -994,13 +990,13 @@ div[class^="effect-"] {
 
 .knopka_slide_left_bottom {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 20%;
 }
 
 .knopka_slide_right_bottom {
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 65%;
 }
 
@@ -2455,6 +2451,9 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   position: sticky;
  
 }
+.owl-carousel .sliders  .sliders_img {
+  width: 100%;
+}
 
 /*
 Адаптив
@@ -2468,24 +2467,24 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   }
 
   .slide3_h3_left {
-    top: 35%;
-    left: 10%;
+   
+    left: 11%;
   }
 
   .slide3_h3_right {
-    top: 35%;
-    left: 65%;
+    
+    left: 66%;
 
   }
 
   .knopka_slide_left_bottom_b {
 
-    left: 15%;
+    left: 12%;
   }
 
   .knopka_slide_right_bottom_b {
 
-    left: 70%;
+    left: 64%;
   }
 
 }
@@ -2547,8 +2546,21 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
           transform: rotate(45deg);
 }
 
+@media only screen and (max-width:1400px) {
+  .knopka_slide_left_bottom_b {
+    left: 10%;
+}
+}
 
 @media only screen and (max-width:1200px) {
+  .knopka_slide_left_bottom_b {
+    left: 6%;
+}
+  .knopka_slide_left_bottom {
+    position: absolute;
+    top: 80%;
+    left: 13%;
+}
   .footer_p a {
     
     font-size: 12px;
@@ -2635,7 +2647,24 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   }
 }
 
+@media only screen and (max-width:1050px) {
+.knopka_slide_left_bottom_b {
+  left: 0%;
+}
+}
+
 @media only screen and (max-width:992px) {
+  .slide3_h3_left {
+    left: 7%;
+    top: 18%;
+    font-size: 36px;
+}
+  .owl-carousel .sliders .sliders_img {
+    width: 80%;
+}
+  .knopka_slide_left_bottom_b {
+    left: 5%;
+}
   .footer_p {
     font-size: 15.447px;
   }
@@ -2723,25 +2752,23 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     left: 65%;
   }
 
-  .slide3_h3_left {
 
-    top: 35%;
-
-  }
 
   .slide3_h3_right {
-    top: 35%;
+    left: 71%;
+    top: 18%;
+    font-size: 36px
 
   }
 
   .knopka_slide_left_bottom {
-    top: 60%;
+    top: 80%;
     left: 13%;
 
   }
 
   .knopka_slide_right_bottom {
-    top: 60%;
+    top: 80%;
     left: 65%;
   }
 
@@ -2758,17 +2785,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:900px) {
-  .slide3_h3_right {
-    top: 40%;
-    font-size: 30px;
-    left: 74%;
-  }
 
-  .slide3_h3_left {
-    top: 40%;
-    left: 7%;
-    font-size: 30px;
-  }
 
   .button {
     margin-top: 100px;
@@ -2779,15 +2796,29 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:850px) {
+  .slide3_h3_left {
+    left: 7%;
+    top: 18%;
+    font-size: 31px;
+  }
+  .slide3_h3_right {
+    left: 71%;
+    top: 18%;
+    font-size: 31px;
+  }
+
+  .owl-carousel .sliders .sliders_img {
+  
+    width: 200px;
+}
   .knopka_slide_left_bottom_b {
-    position: absolute;
-    top: 61%;
-    left: 8%;
+    top: 75%;
+    left: 12%;
   }
 
   .knopka_slide_right_bottom_b {
     position: absolute;
-    top: 61%;
+    top: 75%;
   }
 }
 
@@ -2911,28 +2942,18 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 
 
   .knopka_slide_left_bottom_b {
-    top: 60%;
+    top: 75%;
     left: 8%;
   }
 
   .knopka_slide_right_bottom_b {
     position: absolute;
-    top: 60%;
+    top: 75%;
     left: 70%;
   }
 
-  .slide3_h3_left {
-    top: 45%;
-    left: 9%;
-    font-size: 25px;
 
 
-  }
-
-  .slide3_h3_right {
-    top: 45%;
-    font-size: 25px;
-  }
 
   .button {
 
@@ -2988,25 +3009,10 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:720px) {
-  .knopka_slide_left_bottom {
-    top: 50%;
-  }
-
-  .knopka_slide_right_bottom {
-    top: 50%;
-  }
 
 
-  .slide3_h3_right {
-    top: 50%;
-    font-size: 25px;
-    left: 72%;
-  }
 
-  .slide3_h3_left {
-    top: 50%;
-    left: 7%;
-  }
+
 
   .col-xl-3.news_li {
     padding-right: 0px;
@@ -3039,28 +3045,16 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     align-items: baseline;
 }
  
-  .slide3_h3_left {
-    top: 40%;
-    left: 5%;
-  }
 
-  .slide3_h3_right {
-    top: 40%;
-    left: 73%;
-  }
 
-  .knopka_slide_left {
-    top: -15%;
-    left: 3%;
-  }
 
-  .knopka_slide_right {
-    top: -15%;
-  }
 
 }
 
 @media only screen and (max-width:576px) {
+  .owl-carousel .sliders .sliders_img {
+    width: 180px;
+}
   .konkurs .row{
     width: 100%;
     margin: 0 auto;
@@ -3116,14 +3110,14 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   }
 
   .slide3_h3_right {
-    top: 45%;
-    font-size: 20px;
+    top: 25%;
+    font-size: 25px;
   }
 
   .slide3_h3_left {
-    top: 45%;
-    left: 5%;
-    font-size: 20px;
+    left: 9%;
+    top: 25%;
+    font-size: 25px;
   }
 
   .button {
@@ -3143,11 +3137,12 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   }
 
   .knopka_slide_left_bottom_b {
-    top: 55%;
-  }
+    top: 75%;
+    left: 4%;
+}
 
   .knopka_slide_right_bottom_b {
-    top: 55%;
+    top: 75%;
   }
 
   .button {
@@ -3157,13 +3152,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 
 
 
-  .knopka_slide_left_bottom {
-    top: 45%;
-  }
-
-  .knopka_slide_right_bottom {
-    top: 45%;
-  }
+  
 
 
 
@@ -3194,16 +3183,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     font-size: 20px;
 }
 
-  .slide3_h3_right {
-    top: 45%;
-    font-size: 20px;
-  }
-
-  .slide3_h3_left {
-    top: 45%;
-    left: 5%;
-    font-size: 20px;
-  }
+ 
 
   .button {
     width: 130px;
@@ -3222,14 +3202,15 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:500px) {
+  .owl-carousel .sliders .sliders_img {
+    width: 150px;
+}
   .planet_img {
 
     padding-top: 0px;
   }
 
-  .knopka_slide_right_bottom_b {
-    top: 50%;
-  }
+
 
   .span_planet_right {
     margin-left: 15px;
@@ -3245,50 +3226,35 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     font-size: 20px;
   }
 
-  .knopka_slide_left_bottom {
-    top: 35%;
-  }
-
-  .knopka_slide_right_bottom {
-    top: 35%;
-  }
-
-  .knopka_slide_left_bottom_b {
-    top: 50%;
-    left: 5%;
-  }
+ 
+ 
 
 
 }
 
 @media only screen and (max-width:450px) {
 
-  .knopka_slide_left_bottom {
-    top: 25%;
-  }
-
-  .knopka_slide_right_bottom {
-    top: 28%;
-  }
+ 
 
   .button {
     width: 100px;
   }
 
   .slide3_h3_left {
-    top: 55%;
-    left: 5%;
-    font-size: 15px;
-  }
-
-  .slide3_h3_right {
-    top: 55%;
-    font-size: 15px;
-  }
+   
+    font-size: 21px;
+}
+.slide3_h3_right {
+ 
+  font-size: 21px;
+}
 }
 
 
 @media only screen and (max-width:414px) {
+  .owl-carousel .sliders .sliders_img {
+    width: 130px;
+}
   .happy_notes_konkurs {
     margin: 0;
     text-align: center;
@@ -3305,17 +3271,8 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     left: 71%;
   }
 
-  .knopka_slide_left {
-    top: -40%;
-  }
 
-  .knopka_slide_right {
-    top: -40%;
-  }
 
-  .knopka_slide_right_bottom_b {
-    top: 40%;
-  }
 
   .button {
     width: 90px;
@@ -3323,27 +3280,21 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     font-size: 5px;
   }
 
-  .knopka_slide_right_bottom {
-    top: 20%;
-  }
 
 
-  .knopka_slide_left_bottom_b {
-    top: 40%;
-  }
 
-  .knopka_slide_left_bottom {
-    top: 20%;
-  }
 
 
   .slide3_h3_right {
-    top: 35%;
+    top: 26%;
+    font-size: 19px;
 
   }
 
   .slide3_h3_left {
-    top: 35%;
+    top: 26%;
+    left: 7%;
+    font-size: 19px;
   }
 
   .span_planet_right {
@@ -3360,6 +3311,9 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width: 375px) {
+  .owl-carousel .sliders .sliders_img {
+    width: 100px;
+}
   .happy_notes span {
     display: none;
 
@@ -3376,13 +3330,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     font-size: 17px;
   }
 
-  .knopka_slide_right {
-    top: -45%;
-  }
 
-  .knopka_slide_left {
-    top: -45%;
-  }
 
   .happy_notes {
     font-size: 32px;
@@ -3419,29 +3367,13 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     font-size: 15px;
   }
 
-  .knopka_slide_right_bottom_b {
-    top: 31%;
-  }
 
-  .slide3_h3_left {
-    top: 75%;
-  }
 
-  .slide3_h3_right {
-    top: 75%;
-  }
 
-  .knopka_slide_left_bottom {
-    top: 15%;
-  }
 
-  .knopka_slide_right_bottom {
-    top: 15%;
-  }
 
-  .knopka_slide_left_bottom_b {
-    top: 32%;
-  }
+
+
 
   .slide3_h3_right {
     font-size: 15px;
