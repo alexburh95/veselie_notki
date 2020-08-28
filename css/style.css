@@ -3025,15 +3025,19 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:650px) {
+  .footer_p a {
+    font-size: 10px;
+}
+  .cifra_p span {
+     font-size: 11px; 
+     width: 100%;
+}
 
 .header_nav {
     display: flex;
     align-items: baseline;
 }
-  .cifra_p span {
-   
-    font-size: 17px;
-  }
+ 
   .slide3_h3_left {
     top: 40%;
     left: 5%;
