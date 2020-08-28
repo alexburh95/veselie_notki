@@ -3183,6 +3183,16 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:540px) {
+  .footer_p a {
+    font-size: 19px;
+    line-height: 25px;
+}
+  .cifra_p span {
+    font-size: 25px;
+}
+  .cifra_p {
+    font-size: 20px;
+}
 
   .slide3_h3_right {
     top: 45%;
@@ -3279,6 +3289,12 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 
 
 @media only screen and (max-width:414px) {
+  .happy_notes_konkurs {
+    margin: 0;
+    text-align: center;
+    font-family: 'Sony', serif;
+    font-size: 16px;
+  }
   .slide3_h3_left {
     top: 55%;
     left: 4%;
@@ -3382,6 +3398,10 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:360px) {
+  .contact_form input {
+
+    font-size: 12px;
+}
   .cifra_pp {
     font-size: 18px;
   }
@@ -3441,6 +3461,12 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width: 320px) {
+  .span_planet_left {
+    margin-right: 5px;
+  }
+  .span_planet_right {
+    margin-left: 5px;
+  }
   .happy_notes {
     font-size: 35px;
   }
