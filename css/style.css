@@ -2054,7 +2054,7 @@ ol {
   margin: 0;
   text-align: center;
   font-family: 'Sony', serif;
-  font-size: 39px;
+  font-size: 40px;
   text-transform: uppercase;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -2455,6 +2455,9 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   width: 100%;
 }
 
+.ryad_img{
+  width: 100%;
+}
 /*
 Адаптив
 */
@@ -2553,6 +2556,12 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:1200px) {
+
+  .ryad_img {
+    width: 150px;
+    height: 75px;
+    object-fit: fill;
+}
   .knopka_slide_left_bottom_b {
     left: 6%;
 }
@@ -3098,6 +3107,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
   .konkurs .row, .nom .row{
     text-align: center;
+    justify-content: center;
   }
   .happy_notes {
     font-size: 26px;
@@ -3252,6 +3262,9 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 
 
 @media only screen and (max-width:414px) {
+  .ryad_img {
+  width: 100%;
+  }
   .owl-carousel .sliders .sliders_img {
     width: 130px;
 }
