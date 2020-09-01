@@ -31,7 +31,7 @@ $(document).ready(function () {
     $("#happy_2").viewportChecker({
       callbackFunction: function () {
         $('#carousel2').owlCarousel({
-          autoplay: true,
+          autoplay: false,
           loop: true, //Зацикливаем слайдер
           margin: 50, //Отступ от элемента справа в 50px
           nav: false, //Отключение навигации
