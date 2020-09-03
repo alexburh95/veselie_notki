@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Sony';
   src: url('../fonts/SonyRusbyme.woff2') format('woff2'),
-  url('../fonts/SonyRusbyme.woff') format('woff'),
-  url('../fonts/SonyRusbyme.ttf') format('truetype');
+    url('../fonts/SonyRusbyme.woff') format('woff'),
+    url('../fonts/SonyRusbyme.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -18,7 +18,7 @@ body {
 }
 
 
-label{
+label {
   font-family: Sony;
 }
 
@@ -40,7 +40,7 @@ p {
   background-image: url("../img/main-fon.png");
   background-repeat: no-repeat;
   background-size: cover;
- 
+
 
 }
 
@@ -113,7 +113,7 @@ p {
 
 
 
-.top_menu a{
+.top_menu a {
   font-size: 14px;
   font-family: Sony;
   color: rgb(4, 20, 98);
@@ -2241,6 +2241,7 @@ ol {
 
 
 }
+
 .cifra_pp {
   font-size: 21px;
   font-family: 'Sony';
@@ -2382,7 +2383,7 @@ ol {
   font-size: 15px;
 }
 
-.wpuf-form-add{
+.wpuf-form-add {
   padding: 24px
 }
 
@@ -2390,74 +2391,85 @@ ul.wpuf-form li:last-child {
   text-align: center;
 }
 
-.wpuf-submit{
+.wpuf-submit {
   text-align: center;
 }
 
-.wpuf-submit .wpuf-label{
+.wpuf-submit .wpuf-label {
   float: none !important;
 }
 
-#anketa-form, .wpuf-form-add{
+#anketa-form,
+.wpuf-form-add {
   background-color: white;
   margin: 47px 0px;
   border-radius: 20px;
 }
 
-#anketa-form .acf-fields .acf-button{
+#anketa-form .acf-fields .acf-button {
   padding: 5px 20px;
   margin-left: 10px;
 }
 
-#anketa-form .acf-form-submit{
+#anketa-form .acf-form-submit {
   text-align: center;
   padding: 20px 0;
 }
 
-#anketa-form .acf-fields input{
+#anketa-form .acf-fields input {
   border: 2px solid black;
   border-radius: 6px !important;
 }
 
-#anketa-form .acf-input-prepend{
+#anketa-form .acf-input-prepend {
   font-weight: bold;
 }
 
-.regions ul{
+.regions ul {
   list-style: none;
 }
 
-div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="zayavlenie"] label{
+div[data-name="video_pesni"] label,
+div[data-name="foto"] label,
+div[data-name="zayavlenie"] label {
   color: red;
 }
 
-.select2-container--default li{
+.select2-container--default li {
   color: black !important;
 }
 
-.footer_img{
+.footer_img {
   width: 100%;
 }
 
-#hamnav label, #hamburger { display: none; }
+#hamnav label,
+#hamburger {
+  display: none;
+}
 
 /* Horizontal Menu Items */
-#hamitems { display: flex;flex-direction: column; }
+#hamitems {
+  display: flex;
+  flex-direction: column;
+}
 
 
 #hamnav {
   width: 100%;
   /* Optional */
   position: sticky;
- 
+
 }
-.owl-carousel .sliders  .sliders_img {
+
+.owl-carousel .sliders .sliders_img {
   width: 100%;
 }
 
-.ryad_img{
+.ryad_img {
   width: 100%;
 }
+
 /*
 Адаптив
 */
@@ -2470,12 +2482,12 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   }
 
   .slide3_h3_left {
-   
+
     left: 11%;
   }
 
   .slide3_h3_right {
-    
+
     left: 66%;
 
   }
@@ -2491,11 +2503,13 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   }
 
 }
-.ucast img{
-  width:100%;
+
+.ucast img {
+  width: 100%;
 }
+
 .menu {
- 
+
 
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -2508,6 +2522,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 .menu:hover .bar {
   box-shadow: 1px 1px 7px 1px RGBa(0, 0, 0, 0.3);
 }
+
 .menu .bar {
   width: 55px;
   height: 10px;
@@ -2517,6 +2532,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   -webkit-transition: 0.4s ease;
   transition: 0.4s ease;
 }
+
 .menu .bar:not(:first-child) {
   margin-top: 10px;
 }
@@ -2527,80 +2543,94 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   top: -999px;
 }
 
-#hi:checked + .menu {
+#hi:checked+.menu {
   -webkit-transform: translate(-50%, -50%) rotatey(180deg);
-          transform: translate(-50%, -50%) rotatey(180deg);
+  transform: translate(-50%, -50%) rotatey(180deg);
 }
-#hi:checked + .menu .bar {
+
+#hi:checked+.menu .bar {
   -webkit-transform: rotatey(180deg) rotatex(360deg);
-          transform: rotatey(180deg) rotatex(360deg);
+  transform: rotatey(180deg) rotatex(360deg);
 }
-#hi:checked + .menu .bar:first-child {
+
+#hi:checked+.menu .bar:first-child {
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
   margin-top: 20px;
 }
-#hi:checked + .menu .bar:nth-child(2) {
+
+#hi:checked+.menu .bar:nth-child(2) {
   opacity: 0;
 }
-#hi:checked + .menu .bar:nth-child(3) {
+
+#hi:checked+.menu .bar:nth-child(3) {
   margin-top: -30px;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 @media only screen and (max-width:1400px) {
   .knopka_slide_left_bottom_b {
     left: 10%;
-}
+  }
 }
 
 @media only screen and (max-width:1200px) {
-  .ucast .ryad_img{
-    width:130px;
+  .ucast .ryad_img {
+    width: 130px;
   }
 
   .ryad_img {
     width: 150px;
     height: 75px;
     object-fit: fill;
-}
+  }
+
   .knopka_slide_left_bottom_b {
     left: 6%;
-}
+  }
+
   .knopka_slide_left_bottom {
     position: absolute;
     top: 80%;
     left: 13%;
-}
+  }
+
   .footer_p a {
-    
+
     font-size: 12px;
-}
+  }
+
   .divchik_p {
     font-size: 17px;
   }
+
   .cifra_p {
     font-size: 17px;
     padding-right: 5px;
   }
+
   .h3_region {
 
     font-size: 17px;
   }
+
   .social_h2 {
-   
+
     font-size: 40px;
   }
+
   .happy_notes_konkurs_bottom1 {
     text-align: left;
     font-family: 'Sony', serif;
     font-size: 30px;
   }
+
   .happy_notes_konkurs_bottom {
- 
+
     font-size: 40px;
   }
+
   .konkurs_p {
     color: #ffffff;
     font-family: 'Spectral', serif;
@@ -2609,17 +2639,20 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 
   .img_main {
     width: 70%;
-}
-.top_menu a {
-  font-size: 12px;
-  min-width: 130px;
-}
-.bottom_menu a {
+  }
 
-  width: 130px;
+  .top_menu a {
+    font-size: 12px;
+    min-width: 130px;
+  }
 
-  font-size: 12px;
-}
+  .bottom_menu a {
+
+    width: 130px;
+
+    font-size: 12px;
+  }
+
   .knopka_uchsctnik_top {
 
     font-size: 10px;
@@ -2630,7 +2663,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     margin-left: 40px;
   }
 
-  
+
 
   .knopka_slide_left {
     top: 0%;
@@ -2652,6 +2685,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     left: 70%;
 
   }
+
   .cifra_p span {
     color: #0087d1;
     font-weight: 800;
@@ -2660,51 +2694,61 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 }
 
 @media only screen and (max-width:1050px) {
-.knopka_slide_left_bottom_b {
-  left: 0%;
-}
+  .knopka_slide_left_bottom_b {
+    left: 0%;
+  }
 }
 
 @media only screen and (max-width:992px) {
   .ucast .ryad_img {
-  width: 100%;
+    width: 100%;
   }
+
   .slide3_h3_left {
     left: 7%;
     top: 18%;
     font-size: 36px;
-}
+  }
+
   .owl-carousel .sliders .sliders_img {
     width: 80%;
-}
+  }
+
   .knopka_slide_left_bottom_b {
     left: 5%;
-}
+  }
+
   .footer_p {
     font-size: 15.447px;
   }
+
   .cifra_p {
     font-size: 11px;
   }
+
   .h3_nom {
     margin-top: 20px;
     font-size: 23.424px;
   }
+
   .cifra_p span {
     color: #0087d1;
     font-weight: 800;
     font-size: 20px;
   }
+
   .top_menu a {
     font-size: 10px;
     min-width: 100px;
     width: 100px;
   }
+
   .bottom_menu a {
     width: 100px;
     font-size: 9px;
     min-width: 100px;
-}
+  }
+
   .o1 {
     order: 1;
 
@@ -2773,7 +2817,6 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     left: 71%;
     top: 18%;
     font-size: 36px
-
   }
 
   .knopka_slide_left_bottom {
@@ -2816,6 +2859,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     top: 18%;
     font-size: 31px;
   }
+
   .slide3_h3_right {
     left: 71%;
     top: 18%;
@@ -2823,9 +2867,10 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   }
 
   .owl-carousel .sliders .sliders_img {
-  
+
     width: 200px;
-}
+  }
+
   .knopka_slide_left_bottom_b {
     top: 75%;
     left: 12%;
@@ -2840,46 +2885,55 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 @media only screen and (max-width:768px) {
   .ucast .ryad_img {
     width: 150px;
-}
+  }
+
   .cifra_p {
     font-size: 9px;
     text-align: center;
-}
-  
+  }
+
   .cifra_project {
- 
+
     font-size: 40px;
   }
+
   .nom h4 {
 
     font-size: 12px;
   }
+
   .h3_nom {
     font-size: 15.424px;
   }
+
   .social_h2 {
     font-size: 33px;
-}
+  }
+
   .happy_notes_konkurs {
     margin: 0;
     text-align: center;
     font-family: 'Sony', serif;
     font-size: 30px;
   }
+
   .happy_notes_konkurs_bottom {
     text-align: center;
   }
+
   .konkurs_p {
- 
+
     text-align: center;
   }
 
   .konkurs_p1 {
     text-align: center;
   }
+
   .happy_notes_konkurs_bottom1 {
     text-align: center;
   }
+
   .header_nav ul {
     list-style-type: none;
     display: flex;
@@ -2889,8 +2943,9 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     text-align: center;
     justify-content: center;
     align-items: center;
-}
-  #hamnav label { 
+  }
+
+  #hamnav label {
     display: inline-block;
     color: white;
     /* background: #a02620; */
@@ -2917,20 +2972,24 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     align-items: center;
     /* margin-top: 12px; */
     margin: 10px;
-}
+  }
 
   /* Toggle Show/Hide Menu */
-  #hamitems { display: none;display: none;
-    width: 230px;  }
-
-
-    #hamnav input:checked ~ #hamitems {
-      display: block;
-      border: 2px solid beige;
-      /* text-align: center; */
-      /* margin: 0 auto; */
-      background: linear-gradient(0deg, rgb(0, 22, 79) 0%, rgb(0, 11, 41) 0%, rgb(0, 0, 2) 0%, rgb(0, 11, 41) 32%, rgb(0, 22, 79) 80%);
+  #hamitems {
+    display: none;
+    display: none;
+    width: 230px;
   }
+
+
+  #hamnav input:checked~#hamitems {
+    display: block;
+    border: 2px solid beige;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    background: linear-gradient(0deg, rgb(0, 22, 79) 0%, rgb(0, 11, 41) 0%, rgb(0, 0, 2) 0%, rgb(0, 11, 41) 32%, rgb(0, 22, 79) 80%);
+  }
+
   .right {
     text-align: center;
     /* padding: 0px 30px; */
@@ -3052,17 +3111,18 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 @media only screen and (max-width:650px) {
   .footer_p a {
     font-size: 10px;
-}
-  .cifra_p span {
-     font-size: 11px; 
-     width: 100%;
-}
+  }
 
-.header_nav {
+  .cifra_p span {
+    font-size: 11px;
+    width: 100%;
+  }
+
+  .header_nav {
     display: flex;
     align-items: baseline;
-}
- 
+  }
+
 
 
 
@@ -3072,55 +3132,67 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 @media only screen and (max-width:576px) {
   .owl-carousel .sliders .sliders_img {
     width: 180px;
-}
-  .konkurs .row{
+  }
+
+  .konkurs .row {
     width: 100%;
     margin: 0 auto;
   }
+
   .cifra_p span {
     font-size: 14px;
-}
+  }
+
   .footer_p a {
     font-size: 10px;
   }
-  .footer_h3::after{
-    display: none;
-}
 
-  .news_footer .row{
+  .footer_h3::after {
+    display: none;
+  }
+
+  .news_footer .row {
     text-align: center
   }
-  .news_footer::after{
 
-    display:none;
+  .news_footer::after {
+
+    display: none;
   }
+
   .footer_h3 {
     color: #ffffff;
     font-size: 25px;
     padding-top: 10px;
   }
+
   .footer_img {
     width: 50%;
-}
-  .ucast{
-    text-align:center;
+  }
+
+  .ucast {
+    text-align: center;
   }
 
   .cifra_p {
     font-size: 7px;
-}
+  }
 
   .nom h4 {
     font-size: 12px;
     text-align: center;
-}
-  .konkurs .row, .nom .row{
+  }
+
+  .konkurs .row,
+  .nom .row {
     text-align: center;
     justify-content: center;
   }
+
   .happy_notes {
     font-size: 26px;
-}
+  }
+
   .videorolik_uch {
     width: 100%;
 
@@ -3158,7 +3230,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   .knopka_slide_left_bottom_b {
     top: 75%;
     left: 4%;
-}
+  }
 
   .knopka_slide_right_bottom_b {
     top: 75%;
@@ -3171,7 +3243,7 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 
 
 
-  
+
 
 
 
@@ -3194,15 +3266,17 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   .footer_p a {
     font-size: 19px;
     line-height: 25px;
-}
+  }
+
   .cifra_p span {
     font-size: 25px;
-}
+  }
+
   .cifra_p {
     font-size: 20px;
-}
+  }
 
- 
+
 
   .button {
     width: 130px;
@@ -3223,7 +3297,8 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 @media only screen and (max-width:500px) {
   .owl-carousel .sliders .sliders_img {
     width: 150px;
-}
+  }
+
   .planet_img {
 
     padding-top: 0px;
@@ -3245,8 +3320,8 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
     font-size: 20px;
   }
 
- 
- 
+
+
 
 
 }
@@ -3255,22 +3330,23 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   .knopka_slide_right {
     top: 0%;
     left: 60%;
-}
+  }
 
- 
+
 
   .button {
     width: 100px;
   }
 
   .slide3_h3_left {
-   
+
     font-size: 21px;
-}
-.slide3_h3_right {
- 
-  font-size: 21px;
-}
+  }
+
+  .slide3_h3_right {
+
+    font-size: 21px;
+  }
 }
 
 
@@ -3278,21 +3354,26 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   .cifra_pp {
     font-size: 18px;
   }
+
   .ucast .ryad_img {
     width: 100%;
-}
-  .ryad_img {
-  width: 100%;
   }
+
+  .ryad_img {
+    width: 100%;
+  }
+
   .owl-carousel .sliders .sliders_img {
     width: 130px;
-}
+  }
+
   .happy_notes_konkurs {
     margin: 0;
     text-align: center;
     font-family: 'Sony', serif;
     font-size: 16px;
   }
+
   .slide3_h3_left {
     top: 55%;
     left: 4%;
@@ -3346,7 +3427,8 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
 @media only screen and (max-width: 375px) {
   .owl-carousel .sliders .sliders_img {
     width: 100px;
-}
+  }
+
   .happy_notes span {
     display: none;
 
@@ -3382,10 +3464,12 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   .contact_form input {
 
     font-size: 12px;
-}
+  }
+
   .cifra_pp {
     font-size: 18px;
   }
+
   .planet_h2_bottom {
     font-size: 15px;
   }
@@ -3430,9 +3514,11 @@ div[data-name="video_pesni"] label, div[data-name="foto"] label, div[data-name="
   .span_planet_left {
     margin-right: 5px;
   }
+
   .span_planet_right {
     margin-left: 5px;
   }
+
   .happy_notes {
     font-size: 35px;
   }
