@@ -2566,6 +2566,10 @@ div[data-name="zayavlenie"] label {
   transition: all 0.7s ease-in-out;
  
 }
+
+ ul.row{
+  padding:0;
+}
 /*
 Адаптив
 */
@@ -3226,6 +3230,13 @@ div[data-name="zayavlenie"] label {
 }
 
 @media only screen and (max-width:576px) {
+  .sovetik h2 {
+    font-size: 35.72px;
+  }
+
+  .sovet_ram{
+    padding:50px;
+  }
   .owl-carousel .sliders .sliders_img {
     width: 180px;
   }
