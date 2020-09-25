@@ -2567,7 +2567,7 @@ div[data-name="zayavlenie"] label {
  
 }
 
- ul.row{
+ ul.row.sovet{
   padding:0;
 }
 
@@ -2581,6 +2581,10 @@ div[data-name="zayavlenie"] label {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   padding: 47px;
 }
+
+.grid { display: grid; list-style: none; grid-template-columns: 2fr 1fr; grid-gap: 1rem;  width: 100%;    margin: 0 auto; }
+.grid > li:first-child { grid-row: 1 / span 2 }
+.grid img { display: block; width: 100%;  object-fit: cover }
 /*
 Адаптив
 */
@@ -3579,6 +3583,9 @@ div[data-name="zayavlenie"] label {
 }
 
 @media only screen and (max-width:360px) {
+  .social_h2{
+    font-size: 30px;
+  }
   .contact_form input {
 
     font-size: 12px;

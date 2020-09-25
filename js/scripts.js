@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+  
   wow = new WOW({
     boxClass: 'wow',
     animateClass: 'animated',
