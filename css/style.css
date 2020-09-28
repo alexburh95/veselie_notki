@@ -2585,6 +2585,9 @@ div[data-name="zayavlenie"] label {
 .grid { display: grid; list-style: none; grid-template-columns: 2fr 1fr; grid-gap: 1rem;  width: 100%;    margin: 0 auto; }
 .grid > li:first-child { grid-row: 1 / span 2 }
 .grid img { display: block; width: 100%;  object-fit: cover }
+.grid li:hover {
+  cursor: pointer;
+}
 /*
 Адаптив
 */
