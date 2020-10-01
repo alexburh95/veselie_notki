@@ -2603,25 +2603,27 @@ ul.row.sovet {
     padding: 47px;
 }
 
-.grid {
-    display: grid;
-    list-style: none;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 1rem;
-    width: 100%;
-    margin: 0 auto;
-}
-.grid > div:nth-child(3n-2) {
-    grid-row: span 2;
+.grid video:hover{
+    transform: scale(1.03);
+    cursor: pointer;
 }
 .grid img {
     display: block;
     width: 100%;
     object-fit: cover;
 }
-.grid div:hover {
+.grid img:hover {
     cursor: pointer;
+    transform: scale(1.03);
 }
+.grid li{
+    padding-bottom: 30px;
+}
+video {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
 /*
 Адаптив
 */
@@ -3577,7 +3579,7 @@ ul.row.sovet {
     }
 
     .happy_notes {
-        font-size: 35px;
+        font-size: 32px;
     }
 
     .region_bottom p {
@@ -3585,6 +3587,6 @@ ul.row.sovet {
     }
 
     .social_h2 {
-        font-size: 35px;
+        font-size: 32px;
     }
 }
